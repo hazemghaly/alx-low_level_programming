@@ -9,7 +9,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	 If ( n!=0 && n<0 ){
+	If ( n!=0 && n<0 )
 	 {
 	printf("%d is negative\n",n);
 	
@@ -20,6 +20,6 @@ int main(void)
 	{
 	printf("%d is zero\n",n);
 	}else 
-	{  printf("%d undefined number\n ",n);}}
+	{  printf("%d undefined number\n ",n);}
 	return (0);
 }
