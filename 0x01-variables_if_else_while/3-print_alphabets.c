@@ -12,9 +12,9 @@ for (alphabet = 'A'; alphabet <= 'Z' ; alphabet++){
 for (alphabet = 'a'; alphabet <= 'z' ; alphabet++)
 {
 /* print the value of the variable*/ 
-putchar(alphabet,'\n');
+putchar(alphabet);
 }
+putchar(alphabet);
 }
-putchar(alphabet,'\n');
 return (0);
 }
