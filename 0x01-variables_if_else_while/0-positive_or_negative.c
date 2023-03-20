@@ -9,18 +9,18 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	printf("Enter number = %d",n);
+	printf("Enter number = %d\n",n);
 	If ( n!=0 && n<0 )
 	 {
-	printf("%d is negative",n);
+	printf("%d\n is negative",n);
 	
 	}else if (n!=0 && n>0 )
 	{
-	printf("%d is positive",n);
+	printf("%d\n is positive",n);
 	}else if (n==0)
 	{
-	printf("%d is zero",n);
+	printf("%d\n is zero",n);
 	}else 
-	{  printf("%d undefined number ",n);}
+	{  printf("%d\n undefined number ",n);}
 	return (0);
 }
