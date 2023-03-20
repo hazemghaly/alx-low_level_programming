@@ -9,7 +9,7 @@ int main(void)
 {
 /*declare a variable*/
 char alphabet;
-for (alphabet = 'z'; alphabet <= 'z' ; alphabet--)
+for (alphabet = 'z'; alphabet <= 'a' ; alphabet--)
 {
 /* print the value of the variable*/
 putchar(alphabet);
