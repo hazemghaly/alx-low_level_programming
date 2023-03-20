@@ -9,7 +9,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	printf("Enter number = %d\n",n);
+
 	If ( n!=0 && n<0 )
 	 {
 	printf("%d\n is negative",n);
