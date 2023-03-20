@@ -10,7 +10,8 @@ int main(void)
 /*declare a variable*/
 char alphabet;
 for (alphabet = 'a'; alphabet <= 'z' ; alphabet++)
-{ if (alphabet != 'e' && alphabet !='q')
+{
+if (alphabet != 'e' && alphabet != 'q')
 {
 /* print the value of the variable*/
 putchar(alphabet);
