@@ -11,11 +11,11 @@ int n;
 char al;
 for (n = 0; n < 10; n++)
 {
-	putchar(n);
+putchar(n);
 }
 for (al = 'a' ; al <= 'f'; al++)
 {
-        putchar(al);
+putchar(al);
 }
 putchar('\n');
 return (0);
