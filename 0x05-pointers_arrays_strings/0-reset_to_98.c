@@ -13,5 +13,5 @@ int p;
 p = 402;
 n = &p;  
 *n =98; 
-return (void);
+return (0);
 }
