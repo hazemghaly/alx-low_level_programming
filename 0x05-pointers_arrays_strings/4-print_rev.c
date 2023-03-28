@@ -7,12 +7,20 @@
  */
 void print_rev(char *s)
 {
-while( *s != '\0' )
-{
-_putchar(*s);
-s = s + 1;
-}
-strrev(s);
-_putchar(*s);
-_putchar('\n');
+	int longi = 0;
+	int o;
+
+	while (*s != '\0')
+	{
+		longi++;
+		s++;
+	}
+	s--;
+	for (o = longi; o > 0; o--)
+	{
+		_putchar(*s);
+		s--;
+	}
+
+	_putchar('\n');
 }
