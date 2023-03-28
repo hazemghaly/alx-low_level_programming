@@ -7,14 +7,10 @@
  */
 void rev_string(char *s)
 {
-int n = 0;
-int l;
 while (*s != '\0')
 {
 _putchar(*s);
 s = s + 1;
-n++;
-l++;
 }
 _putchar('\n');
 /**
