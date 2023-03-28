@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 /**
  * int _strlen -  swaps the values of two integers
  * @s: first number
@@ -7,6 +8,6 @@
  */
 int _strlen(char *s)
 {
-strlen(s);
-return (0);
+size_t strlen(char *s);
+Return: 0;
 }
