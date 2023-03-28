@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * pointer to an int as parameter 
- * @c: char to check
+ * reset_to_98 -  pointer to an int as parameter 
+ * @n: char to check
  *
  * Return: 0 
  */
