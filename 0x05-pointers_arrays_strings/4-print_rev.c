@@ -13,6 +13,6 @@ while( *s != '\0' )
 _putchar(*s);
 s = s + 1;
 }
-rev = _strrev(s);
+rev = strrev(s);
 _putchar('\n');
 }
