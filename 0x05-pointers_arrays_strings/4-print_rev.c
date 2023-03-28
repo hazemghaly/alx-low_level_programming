@@ -12,6 +12,7 @@ while( *s != '\0' )
 _putchar(*s);
 s = s + 1;
 }
-_putchar(strrev(*s));
+*s = _strrev(*s)
+_putchar(*s);
 _putchar('\n');
 }
