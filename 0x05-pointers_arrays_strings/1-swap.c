@@ -4,11 +4,11 @@
  *
  * Return: 0 (scuess)
  */
- void swap_int(int *a, int *b)
+void swap_int(int *a, int *b)
 {
 int t;
 
 t  = *b;
 *b = *a;
-*a = t;  
+*a = t;
 }
