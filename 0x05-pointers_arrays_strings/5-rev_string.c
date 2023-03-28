@@ -7,7 +7,8 @@
  */
 void rev_string(char *s)
 {
-while (*s != '\0')
+	int n = 1 ;
+for (n = 1 ;  *s != '\0')
 {
 _putchar(*s);
 s++;
