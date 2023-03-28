@@ -7,7 +7,7 @@
  */
 void print_rev(char *s)
 {
-for ( *s < '\0',s--)
+for ( *s < '\0');
 {
 _putchar(*s);
 s = s - 1;
