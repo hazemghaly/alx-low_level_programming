@@ -12,8 +12,8 @@ while( *s != '\0' )
 _putchar(*s);
 s = s + 1;
 }
-char *y;
-*y = _strrev(*s);
+
+*s = strrev(*s);
 _putchar(*s);
 _putchar('\n');
 }
