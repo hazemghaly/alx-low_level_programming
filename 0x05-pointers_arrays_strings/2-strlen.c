@@ -3,7 +3,6 @@
 /**
  * _strlen -  lrngth of string
  * @s: first number
- * 
  * Return: 0 (scuess)
  */
 int _strlen(char *s)
