@@ -13,13 +13,4 @@ _putchar(*s);
 s = s + 1;
 }
 _putchar('\n');
-/**
-s--;
-for (l = n ; l > 0 ; n--)
-{
-_putchar(*s);
-s--;
-}
-_putchar('\n');
-*/
 }
