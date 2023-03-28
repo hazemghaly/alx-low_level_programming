@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <string.h>  
 /**
  * print_rev - writes the string in revers and a trailing newline to stdout.
  *@s : first number
