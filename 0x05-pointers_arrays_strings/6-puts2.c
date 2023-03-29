@@ -14,6 +14,6 @@ if( counter % 2 == 0 )
 _putchar(*str);
 str = str + 1;
 }
-counter++ 
+counter++;
 _putchar('\n');
 }
