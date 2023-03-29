@@ -9,10 +9,10 @@ void rev_string(char *s)
 {
 	int n = 1;
 	int m = 1;
-while ( *s != '\0' )
-{
-if( n != m )
+if( n = m )
 	{
+		while ( *s != '\0' )
+{
 	_putchar(*s);
 s++;
 m++;
