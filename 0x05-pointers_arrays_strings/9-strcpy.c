@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <string.h>
 /**
  * *_strcpy - writes the string
  *@dest : first number
@@ -9,11 +9,15 @@
 char *_strcpy(char *dest, char *src)
 {
 char size_t; 
-int i  , n;
-size_t;
+
+size_t i , n;
 for (i = 0; i < n && src[i] != '\0'; i++)
+{
 dest[i] = src[i];
+}
 for ( ; i < n; i++)
+{
 dest[i] = '\0';
+}
 return dest;
 }
