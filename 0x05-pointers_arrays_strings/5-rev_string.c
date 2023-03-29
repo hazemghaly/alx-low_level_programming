@@ -8,10 +8,13 @@
 void rev_string(char *s)
 {
 	int n = 1 ;
-for (n == 1 ;  *s != '\0');
+while ( *s != '\0')
 {
+	while ( n == 1) 
+	{
 _putchar(*s);
 s++;
+}
 }
 _putchar('\n');
 }
