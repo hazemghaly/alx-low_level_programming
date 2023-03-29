@@ -12,7 +12,7 @@ void rev_string(char *s)
 
 while ( *s != '\0' )
 {
-if ( n == m );
+if ( n == m )
 {
 _putchar(*s);
 s++;
