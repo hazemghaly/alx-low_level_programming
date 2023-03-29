@@ -12,12 +12,16 @@ void rev_string(char *s)
 
 while ( *s != '\0' )
 {
-for ( n == m );
+if ( n == m );
 {
 _putchar(*s);
 s++;
+n--;
 }
 m++;
 }
+else 
+{
 _putchar('\n');
+}
 }
