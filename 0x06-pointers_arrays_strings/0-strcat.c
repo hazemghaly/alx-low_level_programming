@@ -4,16 +4,20 @@
  * *_strcat - overwrites the string
  *@dest : first number
  *@src : second number
- * Return: Always 0.
+ * Return: dest
  */
 char *_strcat(char *dest, char *src)
 {
-int m = strlen(dest);
+int m = 0
 int i;
-for (i = 0 ; i < n && src[i] != '\0' ; i++)
+while (*(src + m) != '\0')
 {
-dest[m + i] = src[i];
+m++;
 }
-dest[m + i] = '\0';
+for (i = 0 ; i < m ; i++)
+{
+dest[i] = src[i];
+}
+dest[m] = '\0';
 return (dest);
 }
