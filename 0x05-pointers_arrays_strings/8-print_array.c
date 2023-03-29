@@ -8,10 +8,11 @@
  */
 void print_array(int *a, int n)
 {
-n = 0;
-while (*a[n] != '\0')
+	int t[n];
+a = t;
+while (*t[n] != '\0')
 {
-_putchar(*a[n]);
+_putchar(*t[n]);
 _putchar(',');
 n++;
 }
