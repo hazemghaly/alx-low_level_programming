@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * puts_half - writes the string 
+ * puts_half - writes the string
  *@str : first number
  * Return: Always 0.
  */
