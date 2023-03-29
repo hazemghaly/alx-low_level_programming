@@ -13,7 +13,7 @@ while ( *s != '\0' )
 {
 if( n != m )
 	{
-	m++
+	m++;
 _putchar(*s);
 s++;
 }
