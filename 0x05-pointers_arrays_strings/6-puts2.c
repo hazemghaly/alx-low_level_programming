@@ -15,10 +15,10 @@ if ( i == 0 )
 	{
 _putchar(*str);
 str = str + 1;
+	}
 else 
 {
 counter++;
-}
 }
 _putchar('\n');
 }
