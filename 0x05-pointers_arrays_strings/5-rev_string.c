@@ -13,9 +13,9 @@ while ( *s != '\0' )
 {
 if( n != m )
 	{
-	m++;
-_putchar(*s);
+	_putchar(*s);
 s++;
+m++;
 }
 }
 _putchar('\n');
