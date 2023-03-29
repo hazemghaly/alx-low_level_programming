@@ -4,6 +4,9 @@
  * *_strcat - overwrites the string
  *@dest : first number
  *@src : second number
+ *@dest_len : 3rd  number
+ *@i : 4th number
+ *@n : 5th number
  * Return: dest
  */
 char *_strcat(char *dest, char *src)
