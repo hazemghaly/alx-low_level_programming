@@ -14,6 +14,8 @@ while ( *s != '\0' )
 {
 _putchar(*s);
 s++;
+n++
+}
 s--;
 for (m = n ; m > 0 ; m--)
 {
@@ -21,5 +23,4 @@ _putchar(*s);
 s--;
 }
 _putchar('\n');
-}
 }
