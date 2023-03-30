@@ -14,11 +14,11 @@ int i = 0;
 int m = 0;
 while (*s != '\0')
 {
-m++;
-}
 for ( ; i < m ; i++)
 {
 s[i] = _toupper(s[i]);
+m++;
+}
 }
 return(0);
 }
