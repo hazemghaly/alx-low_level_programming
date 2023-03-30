@@ -19,12 +19,12 @@ int a1 = (int) s1[i];
 int a2 = (int) s2[i];
 if (a1 > a2)
 {
-return(1);
+return(_strcmp(s1, s2));
 }
 if (a1 < a2)
 {
-return(-1);
+return(_strcmp(s2, s1));
 }
+return(_strcmp(s1, s1));
 }
-return(0);
 }
