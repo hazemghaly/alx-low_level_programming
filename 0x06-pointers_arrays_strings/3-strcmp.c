@@ -22,4 +22,5 @@ return(1);
 if(a1 < a2)
 return(-1);
 }
+return(0);
 }
