@@ -18,7 +18,7 @@ m++;
 }
 for ( ; i < m ; i++)
 {
-str[i] = toupper(str[i]);
+str[i] = _toupper(str[i]);
 }
 return(0);
 }
