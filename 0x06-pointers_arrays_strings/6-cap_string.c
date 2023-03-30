@@ -12,9 +12,9 @@
 char *cap_string(char *)
 {
 int i = 0;
-char *str;
 int m = 0;
-while (*s != '\0')
+char str[m];
+while (*str[m] != '\0')
 {
 m++;
 }
