@@ -12,7 +12,8 @@
 
 int _strcmp(char *s1, char *s2)
 {
-for (int i = 0 ;  ; i++)
+int i;
+	for (i = 0 ;  ; i++)
 {
 int a1 = (int) s1[i];
 int a2 = (int) s2[i];
