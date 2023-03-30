@@ -7,15 +7,23 @@
  *@dest_len : 3rd  number
  *@i : 4th number
  *@n : 5th number
+ *@k : 6th number
  * Return: dest
  */
 char *_strcat(char *dest, char *src)
 {
-int dest_len = strlen(dest);
-int i;
-int n = 0;
-for (i = 0 ; i < n && src[i] != '\0' ; i++)
-dest[dest_len + i] = src[i];
-dest[dest_len + i] = '\0';
-return dest;
+int i = 0;
+int k = 0;
+while (dest[i] != '\0')
+{
+i++;
+}
+while (src[k] != '\0') 
+{
+dest[i] = src[k];
+i++;
+k++;
+}
+dest[i] = '\0';
+return(dest);
 }
