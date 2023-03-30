@@ -8,9 +8,8 @@
  * @m: lenght 
  * Return: nothing.
  */
-char *string_toupper(char *)
+char *string_toupper(char *str)
 {
-char *str;
 int i = 0;
 int m = 0;
 while (*str != '\0')
