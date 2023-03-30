@@ -16,9 +16,9 @@ for (int i = 0 ;  ; i++)
 {
 int a1 = (int) s1[i];
 int a2 = (int) s2[i];
-if(s1 > s2)
+if(a1 > a2)
 return(1);
-if(s1 < s2)
+if(a1 < a2)
 return(-1);
 }
 }
