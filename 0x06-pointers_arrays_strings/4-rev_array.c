@@ -15,8 +15,8 @@ int i = 0;
 int rev = 0;
 for ( ; i < (n / 2 ) ; i++)
 {
-rev = s[i];
-s[i] = s[n - i - 1];
-s[n - i - 1] = rev;
+rev = a[i];
+a[i] = a[n - i - 1];
+a[n - i - 1] = rev;
 }
 }
