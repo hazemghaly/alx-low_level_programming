@@ -17,10 +17,14 @@ for (i = 0 ;  ; i++)
 {
 int a1 = (int) s1[i];
 int a2 = (int) s2[i];
-if(a1 > a2)
+if (a1 > a2)
+{
 return(1);
-if(a1 < a2)
+}
+if (a1 < a2)
+{
 return(-1);
+}
 }
 return(0);
 }
