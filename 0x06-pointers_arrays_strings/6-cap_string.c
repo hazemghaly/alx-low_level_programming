@@ -16,11 +16,11 @@ int m = 0;
 char str;
 while (*str != '\0')
 {
-m++;
-}
 for ( ; i < m ; i++)
 {
 str[i] = _toupper(str[i]);
+m++;
+}
 }
 return(0);
 }
