@@ -9,12 +9,12 @@
  * @m: lenght 
  * Return: nothing.
  */
-char *cap_string(char *)
+char *cap_string(char *str)
 {
 int i = 0;
 int m = 0;
-char str[m];
-while (*str[m] != '\0')
+char str;
+while (*str != '\0')
 {
 m++;
 }
