@@ -8,17 +8,17 @@
  * @m: lenght 
  * Return: nothing.
  */
-char *string_toupper(char *str)
+char *string_toupper(char *s)
 {
 int i = 0;
 int m = 0;
-while (*str != '\0')
+while (*s != '\0')
 {
 m++;
 }
 for ( ; i < m ; i++)
 {
-str[i] = _toupper(str[i]);
+s[i] = _toupper(s[i]);
 }
 return(0);
 }
