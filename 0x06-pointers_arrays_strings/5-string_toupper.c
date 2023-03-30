@@ -1,6 +1,6 @@
 #include "main.h"
 #include <string.h>
-
+#include <ctype.h>
 /**
  * *string_toupper - turn upper 
  * @s: strimg
@@ -9,16 +9,17 @@
  * Return: nothing.
  */
 char *string_toupper(char *)
-int i = 0;
+{
 char *str;
+int i = 0;
 int m = 0;
-while (*s != '\0')
+while (*str != '\0')
 {
 m++;
 }
 for ( ; i < m ; i++)
 {
-str[i] = _toupper(str[i]);
+str[i] = toupper(str[i]);
 }
 return(0);
 }
