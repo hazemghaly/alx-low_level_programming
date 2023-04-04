@@ -3,10 +3,11 @@
 #include <stdio.h>
 
 /** *_memcpy  - fill memory
- * @src : first char
- * @dest : second char
+ * @src: first char
+ * @dest: second char
  * @i: int
- * @n :num of times
+ * @n: num of times
+ * @l:lenght
  * return :n sceuss
  */
 
