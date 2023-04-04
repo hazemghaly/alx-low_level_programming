@@ -23,6 +23,5 @@ char *_memset(char *s, char b, unsigned int n)
        }
 i++;
 }
-_putchar('\n');
-return(0);
+return(s);
 }
