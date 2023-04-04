@@ -1,7 +1,6 @@
 #include <string.h>
 #include "main.h"
 #include <stdio.h>
-
 /** *_memcpy  - fill memory
  * @src: first char
  * @dest: second char
@@ -21,7 +20,7 @@ l++;
 }
    for (i = 0; i < l; i++) 
    {
-       	   dest[i] = src[i]; 
+   	   dest[i] = src[i]; 
 n--;
    }
 return(dest);
