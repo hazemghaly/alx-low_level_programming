@@ -13,7 +13,7 @@ if (*s != '\0')
 _putchar(*s);
 s++;
 i++;
-return(_puts_recursion(s[i]));
+return(*s + 1);
 }
 	_putchar('\n');
 }
