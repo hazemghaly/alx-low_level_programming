@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _puts_recursion - writes the string s and a trailing newline 
+ * _puts_recursion - writes the string s and a trailing newline
  *@s: first number
  * Return: Always 0.
  */
