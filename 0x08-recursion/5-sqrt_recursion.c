@@ -11,5 +11,5 @@ if (n < 0 || (n % 2) != 0)
 {
 return (-1);
 }
-return(2, 0.5 * log2(n));
+return (0.5 * log2(n));
 }
