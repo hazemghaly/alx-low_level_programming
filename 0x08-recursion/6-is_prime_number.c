@@ -5,7 +5,7 @@
  *@n: first number
   * Return: Always 0.
  */
-int is_prime_number(int n);
+int is_prime_number(int n)
 {
 if (n <= 1)
 {
