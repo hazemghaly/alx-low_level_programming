@@ -12,7 +12,6 @@ if (*s != '\0')
 {
 _putchar(*s);
 i++;
- _puts_recursion(s[i]);
 }
 	_putchar('\n');
 }
