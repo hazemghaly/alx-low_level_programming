@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <string.h>
 /**
  * is_palindrome - writes the string s and a trailing newline
  *@s: first number
@@ -13,7 +13,7 @@ if (*s != '\0')
 _print_rev_recursion(s + 1);
 p = _putchar(*s);
 }
-if (*p == *s)
+if (p == *s)
 {
 return (1);
 }
