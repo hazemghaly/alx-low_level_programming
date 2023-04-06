@@ -5,7 +5,7 @@
  *@n: first number
   * Return: Always 0.
  */
-int _sqrt_recursion(int n);
+int _sqrt_recursion(int n)
 {
 if (n < 0 || (n % 2) != 0) 
 {
