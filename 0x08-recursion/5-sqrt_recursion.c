@@ -11,5 +11,4 @@ if (n < 0 || (n % 2) != 0)
 {
 return (-1);
 }
-int _pow_recursion(int x, int y);
 }
