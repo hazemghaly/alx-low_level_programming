@@ -5,10 +5,10 @@
  * @argv: first char
  * @argc: first int
  * @m: 2nd int
- * @x: 3rd
- * @y: 4th
+ * @x: 3rd int
+ * @y: 4th int
  *
- * Return: 0 sceuss,1 Error
+ * Return: 0 (sceuss),1 (Error)
  */
 int main(int argc, char *argv[])
 {
