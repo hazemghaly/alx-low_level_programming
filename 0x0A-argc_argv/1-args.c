@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include "main.h"
 #include <stdlib.h>
-/** 
+/**
  * main - main function argmuents print its num
  * @argv: first char
  * @argc: first int
  *
- * return :n sceuss
+ * return: 0 sceuss
  */
 int main(int argc, char *argv[])
 {
