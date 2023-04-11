@@ -3,15 +3,20 @@
 /** main - main function
  *@argv: first char
  *@argc: first int
- *@i: 2nd int
+ *@m: 2nd int
  * return :0 sceuss
  */
 int main(int argc, char *argv[])
 {
-int i;
-for (i = 0 ; i < argc; i++)
+int m;
+if (argc >= 3)
 {
-printf("%s\n", argv[i]);
+m = *argv[argc] * *argv[argc + 1];
+printf("%d\n", m);
 }
-return (0);
+else
+{
+printf("Error\n");
+}
+return (1);
 }
