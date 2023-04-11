@@ -6,14 +6,11 @@
  *@argc: first int
  * return :n sceuss
  */
-int  main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
-int i = 0;
-if (i < argc)
+int i;
+for (i = 0;i < argc-1;i++)
 {
-printf("%d",i);
-i++;
+printf("%d\n",i);
 }
-printf("\n");
-return(0);
 }
