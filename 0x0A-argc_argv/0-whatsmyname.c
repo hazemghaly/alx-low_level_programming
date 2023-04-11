@@ -12,10 +12,6 @@ printf("%s\n", argv[0]);
 if(argc < 2)
 {  
 return(1);  
-}  
-else
-{  
-return(-1);  
 }
 return(0);
 }
