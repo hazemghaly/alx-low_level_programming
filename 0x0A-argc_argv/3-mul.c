@@ -12,16 +12,19 @@
 int main(int argc, char *argv[])
 {
 int m;
-if (argc != 3 && argc != 1 && argc != 2)
+if (argc < 4)
 {
-int x = atoi(argv[2]);
-int y = atoi(argv[3]);
+if (argc = 3 && argc != 1 && argc != 2)
+{
+int x = atoi(argv[1]);
+int y = atoi(argv[2]);
 m = x * y;
 printf("%d\n", m);
 }
-if (argc == 1 || argc == 2)
+else if (argc == 1 || argc == 2 )
 {
 printf("Error\n");
 }
 return (1);
+}
 }
