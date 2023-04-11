@@ -2,9 +2,9 @@
 #include "main.h"
 /**
  * main - main function print name
- *@argv: first char
- *@argc: first int
- *@i: 2nd int
+ * @argv: first char
+ * @argc: first int
+ * @i: 2nd int
  * return: 0 sceuss
  */
 int main(int argc, char *argv[])
