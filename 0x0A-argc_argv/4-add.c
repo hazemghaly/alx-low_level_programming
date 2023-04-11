@@ -21,7 +21,7 @@ if (argc >= 3 && argc != 1 && argc != 2)
 for (i = 3 ; i <= argc ; i++)
 {
 y = atoi(argv[i]);
-m = m + y 
+m = m + y; 
 }
 printf("%d\n", m);
 }
