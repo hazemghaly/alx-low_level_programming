@@ -8,7 +8,7 @@
  *@x: 3rd
  *@y: 4th
  *
- * Return :0 sceuss
+ * Return: 0 sceuss
  */
 int main(int argc, char *argv[])
 {
