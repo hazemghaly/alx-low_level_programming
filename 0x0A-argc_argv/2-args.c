@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "main.h"
-/** main - main function
+/**
+ * main - main function print name
  *@argv: first char
  *@argc: first int
  *@i: 2nd int
