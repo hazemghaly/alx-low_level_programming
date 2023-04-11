@@ -12,7 +12,7 @@
 int main(int argc, char *argv[])
 {
 int m;
-if (argc != 3)
+if (argc != 3 && argc != 1 && argc != 2)
 {
 int x = atoi(argv[1]);
 int y = atoi(argv[2]);
