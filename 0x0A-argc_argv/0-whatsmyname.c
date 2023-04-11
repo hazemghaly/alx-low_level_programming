@@ -4,7 +4,6 @@
  * main - main function argument
  * @argv: first char
  * @argc: first int
- * 
  * return :0 sceuss
  */
 int main(int argc, char *argv[])
