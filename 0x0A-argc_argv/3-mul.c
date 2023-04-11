@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
 int m;
 if (argc < 4)
 {
-if (argc = 3 && argc != 1 && argc != 2)
+if (argc == 3 && argc != 1 && argc != 2)
 {
 int x = atoi(argv[1]);
 int y = atoi(argv[2]);
@@ -25,6 +25,6 @@ else if (argc == 1 || argc == 2 )
 {
 printf("Error\n");
 }
-return (1);
 }
+return (1);
 }
