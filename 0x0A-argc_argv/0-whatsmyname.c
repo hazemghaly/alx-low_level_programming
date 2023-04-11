@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "main.h"
-/** main - main function argument
+/**
+ * main - main function argument
  * @argv: first char
  * @argc: first int
  *
