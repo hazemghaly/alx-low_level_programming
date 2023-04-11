@@ -1,13 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
-/** main - main function
+/** 
+ * main - main function
  *@argv: first char
  *@argc: first int
  *@m: 2nd int
  *@x: 3rd
  *@y: 4th
  *@i: 5th
- * return :0 sceuss
+ *
+ * return: 0 sceuss
  */
 int main(int argc, char *argv[])
 {
