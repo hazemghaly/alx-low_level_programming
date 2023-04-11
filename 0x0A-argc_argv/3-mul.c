@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main.h"
 #include <stdlib.h>
 /** main - main function
  *@argv: first char
@@ -24,5 +23,5 @@ else if (argc == 1 || argc == 2 || argc >= 4)
 printf("Error\n");
 return (1);
 }
-return (1);
+return (0);
 }
