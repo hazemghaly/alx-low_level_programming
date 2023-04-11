@@ -1,11 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
-/** main - main function
+/**
+ * main - main function print multiplication
  *@argv: first char
  *@argc: first int
  *@m: 2nd int
  *@x: 3rd
  *@y: 4th
+ *
  * Return :0 sceuss
  */
 int main(int argc, char *argv[])
