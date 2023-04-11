@@ -5,8 +5,10 @@
  * @argv: first char
  * @argc: first int
  * @i: 2nd int
- * return: 0 sceuss
+ *
+ * return: 0 (sceuss)
  */
+
 int main(int argc, char *argv[])
 {
 int i;
