@@ -11,17 +11,24 @@
  */
 char *_strdup(char *str)
 {
-int n = 0;
-char *c;
-if (str == NULL)
-{
-return (NULL);
-}
-c  = malloc(n + 1);
-if (c == NULL)
-{
-return (NULL);
-}
-str = c;
-return (c);
+	int size = 0;
+	char *ptr, *ret;
+
+	if (!str)
+		return (NULL);
+
+	ptr = str;
+	while (*ptr++)
+		size++;
+
+	ret = malloc(size + 1);
+	if (!ret)
+		return (NULL);
+
+	ptr = ret;
+	while (*str)
+		*ptr++ = *str++;
+
+	*ptr = 0;
+	return (ret);
 }
