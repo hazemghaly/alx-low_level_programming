@@ -5,7 +5,7 @@
 /**
  * *_strdup - creats array
  * @str: the address of memory to print
- * @c: the pointer of the memory to print
+ * @c: the pointer
  *
  * Return: Nothing.
  */
@@ -17,7 +17,7 @@ if (str == NULL)
 {
 return (NULL);
 }
-c  = malloc( n + 1);
+c  = malloc(n + 1);
 if (c == NULL)
 {
 return (NULL);
