@@ -11,9 +11,14 @@
  */
 char *_strdup(char *str)
 {
-char *c = "ALX SE";
-str  = (char *) malloc(sizeof(char));
+int n = 0;
+char *c;
 if (str == NULL)
+{
+return (NULL);
+}
+c  = malloc( n + 1);
+if (c == NULL)
 {
 return (NULL);
 }
