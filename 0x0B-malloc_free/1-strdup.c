@@ -5,7 +5,6 @@
 /**
  * *_strdup - creats array
  * @str: the address of memory to print
- * @c: the pointer
  *
  * Return: Nothing.
  */
