@@ -31,15 +31,19 @@ if (s == 0)
 {
 return (NULL);
 }
-p = (char *) malloc(sizeof(s));
-for (i = 0 ; i < (s / 2) ; i++)
+p = (char *) malloc(sizeof(s + 1 ));
+while (s1[i] != '\0')
 {
 p[i] = s1[i];
+i++;
 }
-for (u = s ; u != (s / 2) ; u--)
+while (s2[u] != '\0')
 {
-p[u] = s2[u];
+p[i] = s2[u];
+i++;
+u++;
 }
+p[i] = '\0';
 if (p == NULL)
 {
 return (NULL);
