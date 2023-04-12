@@ -31,7 +31,7 @@ if (s == 0)
 {
 return (NULL);
 }
-p = malloc(sizeof(s));
+p = (char *) malloc(sizeof(s));
 for (i = 0 ; i < (s / 2) ; i++)
 {
 p[i] = s1[i];
