@@ -27,11 +27,11 @@ x++;
 s2++;
 }
 s = x + y;
-if (s == 0)
-{
-return (NULL);
-}
-p = (char *) malloc(sizeof(s + 1 ));
+if (s1 == NULL)
+s1 = "";
+if (s2 == NULL)
+s2 = "";
+p = malloc(sizeof(char) * (s + 1));
 while (s1[i] != '\0')
 {
 p[i] = s1[i];
