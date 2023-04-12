@@ -45,8 +45,6 @@ u++;
 }
 p[i] = '\0';
 if (p == NULL)
-{
-return (NULL);
-}
+	return (NULL);
 return (p);
 }
