@@ -36,5 +36,9 @@ for (u = s ; u != (s / 2) ; u--)
 {
 p[u] = s2[u];
 }
+if (p == NULL)
+{
+return (NULL);
+}
 return (p);
 }
