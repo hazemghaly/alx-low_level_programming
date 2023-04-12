@@ -28,13 +28,13 @@ s2++;
 }
 s = x + y;
 p = malloc(s);
-for ( i = 0 ; i < (s / 2) ; i++)
+for (i = 0 ; i < (s / 2) ; i++)
 {
-p[i] = s1[i] ;
+p[i] = s1[i];
 }
-for ( u = s ; u != (s / 2) ; u--)
+for (u = s ; u != (s / 2) ; u--)
 {
-p[u] = s2[u] ;
+p[u] = s2[u];
 }
 return (p);
 }
