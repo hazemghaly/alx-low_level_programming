@@ -5,13 +5,13 @@
 /**
  * *_strdup - creats array
  * @str: the address of memory to print
- * @i: the size of the memory to print
+ * @c: the pointer of the memory to print
  *
  * Return: Nothing.
  */
 char *_strdup(char *str)
 {
-char *c = "h";
+char *c = "ALX SE";
 str  = (char *) malloc(sizeof(char));
 if (str == NULL)
 {
