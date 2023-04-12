@@ -27,6 +27,10 @@ x++;
 s2++;
 }
 s = x + y;
+if (s == 0)
+{
+return (NULL);
+}
 p = malloc(s);
 for (i = 0 ; i < (s / 2) ; i++)
 {
