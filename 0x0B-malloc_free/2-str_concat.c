@@ -31,7 +31,7 @@ if (s1 == NULL)
 s1 = "";
 if (s2 == NULL)
 s2 = "";
-p = malloc(sizeof(char) * (s + 1));
+p = (char *)  malloc(sizeof(char) * (s + 1));
 while (s1[i] != '\0')
 {
 p[i] = s1[i];
