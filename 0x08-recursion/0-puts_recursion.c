@@ -17,7 +17,7 @@ return;
 }
 if (s[i] != '\0')
 {
-_putchar(s[i]);
+_putchar(s);
 i++;
 _putchar('\n');
 }
