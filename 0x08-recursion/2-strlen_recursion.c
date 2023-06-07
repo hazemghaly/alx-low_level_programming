@@ -5,7 +5,7 @@
 /**
  * _strlen_recursion  - print length string with recursion
  * @s: first char
- * @len: int
+ * @len: int length
  *
  * return :0
  */
