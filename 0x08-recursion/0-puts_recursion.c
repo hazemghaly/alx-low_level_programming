@@ -20,7 +20,7 @@ _putchar(s[i]);
 else
 {
 _putchar('\n');
-i++;
+return;
 }
-return
+i++;
 }
