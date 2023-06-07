@@ -19,8 +19,8 @@ _strlen_recursion(++s);
 }
 else 
 {
-return (0);
-}
+return (1);
 _putchar(len);
+}
 return (0);
 }
