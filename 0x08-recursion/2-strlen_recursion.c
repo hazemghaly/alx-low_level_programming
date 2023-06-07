@@ -7,21 +7,18 @@
  *
  * Description: 'length of string'
  * @s: first char
- * @l: int length
  *
  * Return: Always 0 (Success)
  */
 
 int _strlen_recursion(char *s)
 {
-int i = 0;
 if (*s == '\0')
 {
 return (0);
 }
 else
 {
-i++;
 return (1 + _strlen_recursion(++s));
 }
 }
