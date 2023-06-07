@@ -20,8 +20,6 @@ return (0);
 else
 {
 len++;
-_strlen_recursion(++s);
+return (1+_strlen_recursion(++s));
 }
-_putchar(len);
-return (0);
 }
