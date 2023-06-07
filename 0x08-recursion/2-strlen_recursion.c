@@ -7,7 +7,7 @@
  * @s: first char
  * @l: int length
  *
- * return :l
+ * return :l scuess
  */
 
 int _strlen_recursion(char *s)
