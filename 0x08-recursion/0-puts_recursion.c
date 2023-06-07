@@ -5,22 +5,20 @@
 /**
  * _puts_recursion  - print string eith recursion
  * @s: first char
- * @i: int
  *
  * return :0
  */
 
 void _puts_recursion(char *s)
 {
-int i = 0;
-if (s[i] != '\0')
+if (*s != '\0')
 {
-_putchar(s[i]);
+_putchar(*s);
 }
 else
 {
 _putchar('\n');
 return;
 }
-i++;
+*s++;
 }
