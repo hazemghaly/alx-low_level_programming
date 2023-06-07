@@ -23,4 +23,5 @@ if (*s == '\0')
 return (len);
 }
 _putchar(len);
+return (0);
 }
