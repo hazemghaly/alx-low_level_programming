@@ -5,24 +5,14 @@
 /**
  * _print_rev_recursion  - print reverse string with recursion
  * @s: first char
- * @long: int 1st
- * @R: int 2nd
- * return :0
+ *
+ * Return: Always 0 (Success)
  */
 void _print_rev_recursion(char *s)
 {
-int long = 0;
 if (*s != '\0')
 {
-long++;
-_print_rev_recursion(s++);
-} 
-int R = long;
-if (R > 0 ; R--)
-{
+_print_rev_recursion(s + 1);
 _putchar(*s);
-_print_rev_recursion(s--);
 }
-_putchar('\n');
-return;
 }
