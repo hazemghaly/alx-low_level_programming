@@ -18,7 +18,7 @@ if (*s != '\0')
 len++;
 _strlen_recursion(++s);
 }
-if ( *s == '\0')
+if (*s == '\0')
 {
 return (0);
 }
