@@ -17,6 +17,10 @@ if (*s != '\0')
 len++;
 _strlen_recursion(++s);
 }
+else 
+{
+return (0);
+}
 _putchar(len);
 return (0);
 }
