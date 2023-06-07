@@ -5,13 +5,13 @@
 /**
  * _strlen_recursion  - print length string with recursion
  * @s: first char
- * @len: int 1st
+ * @len: int
  *
  * return :0
  */
 int _strlen_recursion(char *s)
 {
-int len = 0;
+int len;
 if (*s != '\0')
 {
 len++;
