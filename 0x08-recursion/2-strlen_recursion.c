@@ -20,8 +20,7 @@ _strlen_recursion(++s);
 }
 if (*s == '\0')
 {
-return (0);
+return (len);
 }
 _putchar(len);
-return (1);
 }
