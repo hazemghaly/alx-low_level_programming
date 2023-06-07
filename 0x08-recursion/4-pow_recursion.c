@@ -26,7 +26,7 @@ return (0);
 }
 else
 {
-return (_pow_recursion((x, y + 1) * x));
+return (_pow_recursion(x, y + 1) * x);
 }
 return (0);
 }
