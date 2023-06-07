@@ -9,6 +9,7 @@
  *
  * return :0
  */
+
 void _puts_recursion(char *s)
 {
 int i = 0;
@@ -19,7 +20,7 @@ return;
 }
 else
 {
-_putchar(*s);
+_putchar(s[i]);
 i++;
 }
 }
