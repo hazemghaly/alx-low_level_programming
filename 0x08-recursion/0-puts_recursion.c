@@ -16,7 +16,7 @@ return;
 }
 if (s[i] != '\0')
 {
-_putchar(s[i]);
+putchar(s[i]);
 i++;
 }
 }
