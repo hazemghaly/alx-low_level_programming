@@ -5,7 +5,7 @@
  * @s: first char
  * @i: int
  *
- * return :n sceuss
+ * return :0 
  */
 void _puts_recursion(char *s)
 {
@@ -17,7 +17,7 @@ return;
 }
 if (s[i] != '\0')
 {
-_putchar(s);
+_putchar(*s);
 i++;
 _putchar('\n');
 }
