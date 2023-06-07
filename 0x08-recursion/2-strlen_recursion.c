@@ -17,5 +17,5 @@ len++;
 _strlen_recursion(s++);
 }
 _putchar(len);
-return;
+return (0);
 }
