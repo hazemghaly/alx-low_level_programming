@@ -4,7 +4,7 @@
 /** _puts_recursion  - print string eith recursion
  * @s: first char
  * @i: int
- * @n: num of times
+ *
  * return :n sceuss
  */
 void _puts_recursion(char *s)
