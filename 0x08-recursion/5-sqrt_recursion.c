@@ -19,9 +19,5 @@ if (n == 1)
 {
 return (1);
 }
-if (n > 1)
-{
-return (_sqrt_recursion(n) * 0.5);
-}
 return (0);
 }
