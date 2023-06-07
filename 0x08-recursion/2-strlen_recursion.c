@@ -5,16 +5,16 @@
 /**
  * _strlen_recursion  - print length string with recursion
  * @s: first char
- * @long: int 1st
+ * @len: int 1st
  * return :0
  */
 int _strlen_recursion(char *s)
 {
-int long = 0;
+int len = 0;
 if (*s != '\0')
 {
-long++;
+len++;
 _strlen_recursion(s++);
 }
-_putchar('long');
+_putchar('len');
 }
