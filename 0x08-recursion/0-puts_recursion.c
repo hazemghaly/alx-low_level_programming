@@ -20,5 +20,5 @@ else
 _putchar('\n');
 return;
 }
-*s++;
+s++;
 }
