@@ -6,7 +6,7 @@
  * factorial  - print reverse string with recursion
  * @n: int 1st
  *
- * return :0
+ * Return: Always 0 (Success)
  */
 
 int factorial(int n)
