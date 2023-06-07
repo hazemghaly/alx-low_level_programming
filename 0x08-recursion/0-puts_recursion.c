@@ -15,5 +15,5 @@ if ( *s == '\0' )
 {
 return;
 }
-putchar('*s');
+putchar("*s");
 }
