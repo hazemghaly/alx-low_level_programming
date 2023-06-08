@@ -14,7 +14,7 @@ int is_palindrome(char *s)
 char y;
 if (*s != '\0')
 {
-_print_rev_recursion(++s);
+is_palindrome(++s);
 y = _putchar(*s);
 }
 if (*s == y) 
