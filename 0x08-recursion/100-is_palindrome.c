@@ -5,7 +5,7 @@
 /**
  * is_palindrome - palindrome recursion
  * @s: char 1st
- * @y: char 2nd
+ * @y: char 2nd reversed string
  *
  * Return: Always 0 (Success)
  */
