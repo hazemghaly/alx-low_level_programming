@@ -14,9 +14,9 @@ int is_palindrome(char *s)
 char *y;
 if (*s != '\0')
 {
-*y = is_palindrome(s + 1);
+y = is_palindrome(s + 1);
 }
-if (*s = *y) 
+if (*s == *y) 
 {
 return (1);
 }
