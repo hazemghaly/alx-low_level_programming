@@ -20,6 +20,10 @@ if (*s != '\0')
 is_palindrome(++s);
 y = _putchar(*s);
 }
+if (s == 0)
+{
+return (1);
+}
 if (*s == y)
 {
 return (1);
