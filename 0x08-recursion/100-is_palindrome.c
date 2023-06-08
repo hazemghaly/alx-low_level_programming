@@ -11,11 +11,11 @@
 
 int is_palindrome(char *s)
 {
-char *y = 0;
+char y;
 if (*s != '\0')
 {
-_print_rev_recursion(s);
-*y = _putchar(*s);
+_print_rev_recursion(++s);
+y = _putchar(*s);
 }
 if (*s == *y) 
 {
