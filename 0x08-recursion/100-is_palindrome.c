@@ -4,6 +4,8 @@
 
 /**
  * is_palindrome - palindrome recursion
+ *
+ * Description: 'palindrome recursion'
  * @s: char 1st
  * @y: char 2nd reversed string
  *
