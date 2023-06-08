@@ -4,7 +4,8 @@
 
 /**
  * is_palindrome - palindrome recursion
- * @n: int 1st
+ * @s: char 1st
+ * @y: char 2nd
  *
  * Return: Always 0 (Success)
  */
