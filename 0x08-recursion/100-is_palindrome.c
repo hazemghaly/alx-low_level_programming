@@ -17,7 +17,7 @@ if (*s != '\0')
 _print_rev_recursion(++s);
 y = _putchar(*s);
 }
-if (*s == *y) 
+if (*s == y) 
 {
 return (1);
 }
