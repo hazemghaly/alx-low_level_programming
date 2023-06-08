@@ -19,5 +19,10 @@ if (n == 1)
 {
 return (1);
 }
+if (x != y)
+{
+x = y;
+y = _sqrt_recursion((n / y * y) / 2);
+}
 return (0);
 }
