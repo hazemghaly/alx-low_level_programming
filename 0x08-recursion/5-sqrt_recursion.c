@@ -11,6 +11,8 @@
 
 int _sqrt_recursion(int n)
 {
+int x = n / 2;
+int y = 0;
 if (n < 0)
 {
 return (-1);
@@ -19,8 +21,6 @@ if (n == 1)
 {
 return (1);
 }
-int x = n / 2;
-int y = 0;
 if (x != y)
 {
 y = x;
