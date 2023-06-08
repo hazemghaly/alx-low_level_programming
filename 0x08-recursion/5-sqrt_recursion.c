@@ -19,10 +19,12 @@ if (n == 1)
 {
 return (1);
 }
+int x = n / 2;
+int y = 0;
 if (x != y)
 {
 y = x;
-x = _sqrt_recursion((n / y + y) / 2)
+x = _sqrt_recursion((n / y + y) / 2);
 }
 return (0);
 }
