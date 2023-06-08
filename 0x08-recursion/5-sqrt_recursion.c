@@ -24,7 +24,7 @@ return (1);
 if (x != y)
 {
 y = x;
-x = _sqrt_recursion((n / y + y) / 2);
+_sqrt_recursion((n / y + y) / 2);
 }
 return (0);
 }
