@@ -8,8 +8,7 @@
  * main  - argument of program
  * @argc: argument
  * @argv: argument string
- * @x: first int
- * @y: 2nd int
+ * @y: 1s int
  * @i: 3rd int
  *
  * Return: Always 0 (Success)
@@ -29,7 +28,7 @@ if (*argv[i] >= '0' && *argv[i] <= '9')
 {
 y  = y +  atoi(argv[i]);
 }
-else 
+else
 {
 printf("Error\n");
 return (1);
