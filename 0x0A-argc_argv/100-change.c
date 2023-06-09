@@ -18,7 +18,6 @@
 int main (int argc, char *argv[])
 {
 int i;
-int x;
 int y;
 if (argc >= 3 && argc != 1 && argc != 2)
 {
