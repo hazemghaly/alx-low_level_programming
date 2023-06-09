@@ -5,7 +5,7 @@
 /**
  * main  - argument of program
  * @argc: argument
- * @argv: argument string
+ * @argv: char argument string
  *
  * Return: Always 0 (Success)
  */
