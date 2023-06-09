@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main  - argument of program
+ * main  - arguments of program
  * @argc: argument
  * @argv: argument string
  *
@@ -12,7 +12,11 @@
 
 int main (int argc, char *argv[])
 {
-(void)*argv[0];
+int i;
 printf("%d\n",argc);
+for (i = 0 ; i != *argv[i] ; i++)
+{
+return (0);
+}
 return (0);
 }
