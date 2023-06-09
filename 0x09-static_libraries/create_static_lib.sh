@@ -1,2 +1,2 @@
 #!/bin/bash
-ranlib liball.a
+ar rcs liball.a
