@@ -13,6 +13,6 @@
 int main (int argc, char *argv[])
 {
 (void)argc;
-_putchar(argv[0]);
+printf("argv[0]=%s\n",argv[0]);
 return (0);
 }
