@@ -11,37 +11,30 @@
  * @x: first int
  * @y: 2nd int
  * @i: 3rd int
- * @c: 4th int
  *
  * Return: Always 0 (Success)
  */
 
 int main (int argc, char *argv[])
 {
-int x;
-int y;
+int y = 0;
+int i;
 if (argc == 1)
 {
 printf("0\n");
 }
-for (i=1 ;i <argc-1 ;i++)
+for (i = 1 ;i < argc ;i++)
 {
-if (isalpha(argv[i]))
+if (*argv[i] >= '0' && *argv[i] <= '9')
 {
-c = 1;
+y  = y +  atoi(argv[i]);
 }
-if (c == 1)
+else 
 {
 printf("Error\n");
 return (1);
 }
-else 
-{
-x = atoi(argv[1]);
-y = atoi(argv[i]);
-y = x + y;
 }
-printf("%d\n",x);
-}
+printf("%d\n",y);
 return (0);
 }
