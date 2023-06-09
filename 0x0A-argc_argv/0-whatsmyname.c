@@ -12,7 +12,10 @@
 
 int main (int argc, char *argv[])
 {
-(void)argc;
 printf("argv[0]=%s\n",argv[0]);
+if (argc < 2)
+{
 return (0);
+}
+return(0);
 }
