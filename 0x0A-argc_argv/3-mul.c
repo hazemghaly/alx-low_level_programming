@@ -16,12 +16,12 @@ int main (int argc, char *argv[])
 {
 int x;
 int y;
-if (argc != 3 && argc >= 4)
+if (argc == 1 || argc == 2 || argc >= 4)
 {
 printf("Error\n");
 return (1);
 }
-else
+else if (argc == 3 && argc != 1 && argc != 2)
 {
 x = atoi(argv[1]);
 y = atoi(argv[2]);
