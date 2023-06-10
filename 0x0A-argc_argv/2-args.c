@@ -6,7 +6,6 @@
  * @argc: argument
  * @argv: argument string
  * @i: first int
- *
  * Return: Always 0 (Success)
  */
 
