@@ -22,11 +22,12 @@ if (argc == 1)
 {
 printf("0\n");
 }
-for (i = 1 ;i < argc ;i++)
-{
 if (argc >= 3 && argc != 1 && argc != 2)
 {
+for (i = 1 ;i < argc ;i++)
+{
 y  = y +  atoi(argv[i]);
+}
 }
 else
 {
