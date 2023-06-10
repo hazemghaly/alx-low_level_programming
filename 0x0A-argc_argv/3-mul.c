@@ -9,7 +9,7 @@
  * @x: 2nd int
  * @y: 3rd int
  *
- * Return: Always 0 (Success)
+ * Return: Always 0 (Success), 1 (Error)
  */
 
 int main (int argc, char *argv[])
