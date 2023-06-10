@@ -20,6 +20,8 @@ int y;
 int x = 0;
 int coins[] = {25 , 10 , 5 , 2 , 1};
 y = atoi(argv[1]);
+if (argc == 2)
+{
 for (i = 0 ; i < 5 ; i++)
 {
 while ( y >= coins[i])
@@ -29,7 +31,8 @@ y = y -  coins[i];
 }
 }
 printf("%d\n",x);
-if (argc != 2)
+}
+else
 {
 printf("Error\n");
 return (1);
