@@ -23,7 +23,7 @@ printf("0\n");
 }
 for (i = 1 ;i < argc ;i++)
 {
-if (*argv[i] >= '0' && *argv[i] <= '9')
+if (*argv[i] >= '0' || *argv[i] <= '9')
 {
 y  = y +  atoi(argv[i]);
 }
