@@ -7,12 +7,12 @@
  * main  - argument of program
  * @argc: argument
  * @argv: argument string
- * @cents: first int
+ * @x: first int
  * @y: 2nd int
  * @i: 3rd int
  * @coins: array of coins 
  *
- * Return: Always 0 (Success)
+ * Return: Always 0 (Success) , 1 (Error)
  */
 
 int main (int argc, char *argv[])
