@@ -2,14 +2,13 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include <ctype.h>
 
 /**
- * main  - argument of program
+ * main  - add argument of program
  * @argc: argument
  * @argv: argument string
- * @y: 1s int
- * @i: 3rd int
+ * @y: 1st int
+ * @i: 2nd int
  *
  * Return: Always 0 (Success)
  */
@@ -22,17 +21,17 @@ if (argc == 1)
 {
 printf("0\n");
 }
-if (argc >= 3 && argc != 1 && argc != 2)
-{
 for (i = 1 ;i < argc ;i++)
 {
+if (*argv[i] >= '0' && *argv[i] <= '9')
+{
 y  = y +  atoi(argv[i]);
-}
 }
 else
 {
 printf("Error\n");
 return (1);
+}
 }
 printf("%d\n",y);
 return (0);
