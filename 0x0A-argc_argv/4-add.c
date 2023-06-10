@@ -20,7 +20,7 @@ if (argc == 1)
 {
 printf("0\n");
 }
-for (i = 1 ;i < argc ;i++)
+for (i = 1 ; i < argc ; i++)
 {
 if (*argv[i] >= '0' || *argv[i] <= '9')
 {
