@@ -10,7 +10,7 @@
  * @y: 1st int
  * @i: 2nd int
  *
- * Return: Always 0 (Success)
+ * Return: 0 (sceuss),1 (Error)
  */
 
 int main (int argc, char *argv[])
