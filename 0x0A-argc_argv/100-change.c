@@ -10,6 +10,7 @@
  * @cents: first int
  * @y: 2nd int
  * @i: 3rd int
+ * @coins: array of coins 
  *
  * Return: Always 0 (Success)
  */
@@ -18,12 +19,12 @@ int main (int argc, char *argv[])
 {
 int i;
 int y;
+int coins[] = {25 , 10 , 5 , 2 , 1}
 if (argc >= 3 && argc != 1 && argc != 2)
 {
 for (i = 1 ; i < argc ; i++)
-{
-y = atoi(argv[i]);
-}
+
+y = atoi(argv[1]);
 printf("%d\n",y);
 }
 if (argc != 2)
