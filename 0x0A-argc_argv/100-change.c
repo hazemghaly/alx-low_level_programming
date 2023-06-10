@@ -20,7 +20,7 @@ int y;
 int x = 0;
 int coins[] = {25 , 10 , 5 , 2 , 1};
 y = atoi(argv[1]);
-if (argc == 2)
+if (argc == 2 || argv[1] == NULL)
 {
 for (i = 0 ; i < 5 ; i++)
 {
