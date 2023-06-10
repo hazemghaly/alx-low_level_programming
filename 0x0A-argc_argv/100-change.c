@@ -21,7 +21,7 @@ int y;
 int x = 0;
 int coins[] = {25 , 10 , 5 , 2 , 1};
 y = atoi(argv[1]);
-for (i = 1 ; i < 5 ; i++)
+for (i = 0 ; i < 5 ; i++)
 {
 while ( y >= coins[i])
 {
