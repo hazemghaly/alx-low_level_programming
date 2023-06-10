@@ -12,11 +12,17 @@
 
 int main (int argc, char *argv[])
 {
-int i;
-printf("%d\n",argc);
-for (i = 0 ; i != *argv[i] ; i++)
+if (argc == 0)
 {
-return (0);
+printf("%s\n",argv[0]);
+}
+if (argc < 2)
+{
+printf("%d\n",argc-1);
+}
+else
+{
+printf("%d\n",argc-1);
 }
 return (0);
 }
