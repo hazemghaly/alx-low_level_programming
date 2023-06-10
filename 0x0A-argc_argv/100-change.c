@@ -2,7 +2,6 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include <ctype.h>
 
 /**
  * main  - argument of program
@@ -21,7 +20,7 @@ int i;
 int y;
 if (argc >= 3 && argc != 1 && argc != 2)
 {
-for (i = 1 ;i < argc ;i++)
+for (i = 1 ; i < argc ; i++)
 {
 y = atoi(argv[i]);
 }
