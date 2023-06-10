@@ -30,8 +30,7 @@ x++;
 y = y -  coins[i];
 }
 }
-printf("%d\n",y);
-}
+printf("%d\n",x);
 if (argc != 2)
 {
 printf("Error\n");
