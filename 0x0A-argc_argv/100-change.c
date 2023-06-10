@@ -19,12 +19,17 @@ int main (int argc, char *argv[])
 {
 int i;
 int y;
-int coins[] = {25 , 10 , 5 , 2 , 1}
-if (argc >= 3 && argc != 1 && argc != 2)
-{
-for (i = 1 ; i < argc ; i++)
-
+int x = 0;
+int coins[] = {25 , 10 , 5 , 2 , 1};
 y = atoi(argv[1]);
+for (i = 1 ; i < 5 ; i++)
+{
+while ( y >= coins[i])
+{
+x++;
+y = y -  coins[i];
+}
+}
 printf("%d\n",y);
 }
 if (argc != 2)
