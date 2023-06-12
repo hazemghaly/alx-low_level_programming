@@ -28,5 +28,5 @@ if (str == NULL)
 {
 return (NULL);
 }
-return (NULL);
+return (str);
 }
