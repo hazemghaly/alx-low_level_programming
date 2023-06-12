@@ -15,6 +15,6 @@ if (size  == 0 )
 {
 return (NULL);
 }
-c = malloc(size * sizeof(c));
+strcpy(c) = malloc(size * sizeof(c));
 return (NULL);
 }
