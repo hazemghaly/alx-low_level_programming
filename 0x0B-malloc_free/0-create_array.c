@@ -6,25 +6,27 @@
  * *create_array  - acreate of array
  * @c: array
  * @size: first int
+ * @i: first int
+ * @str: 2nd array
  * Return: Always 0 (Success) , NULL (Error)
  */
 
 char *create_array(unsigned int size, char c)
 {
 unsigned int i;
-char *p;
-if (size  == 0 )
+char *str;
+if (size  == 0)
 {
 return (NULL);
 }
-p = (char*) malloc(sizeof(c) * size);
+str = (char*) malloc(sizeof(c) * size);
 for (i = 0; i < size; i++)
 {
-p[i] = c;
+str[i] = c;
 }
-return (p);
-if (p == NULL)
+if (str == NULL)
 {
 return (NULL);
 }
+return (NULL);
 }
