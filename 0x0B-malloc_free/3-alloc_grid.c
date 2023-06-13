@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <string.h>
 /**
- * *str_concat  - returns a pointer to a 2 dimensional array of integers.
+ * **alloc_grid  - returns a pointer to a 2 dimensional array of integers.
  * @width: 1st int
  * @height: 2nd int
  * Return: Always 0 (Success) , NULL (Error)
@@ -14,7 +14,7 @@ int **alloc_grid(int width, int height)
 int i;
 int **p;
 p = malloc(height * sizeof(int *));
-for(i = 0; i < height; i++)
+for (i = 0; i < height; i++)
 {
 p[i] = malloc(width * sizeof(int));
 }
