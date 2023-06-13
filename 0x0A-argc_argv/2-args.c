@@ -5,7 +5,7 @@
  * main  - argument of program
  * @argc: argument
  * @argv: argument string
- * @i: counter int
+ *
  *
  * Return: Always 0 (Success)
  */
