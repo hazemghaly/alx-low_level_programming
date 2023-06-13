@@ -28,6 +28,7 @@ if (p == NULL)
 {
 return (NULL);
 }
+free(p);
 for (n = 0; n < len + 1 ; n++)
 {
 p[n] = str[n];
