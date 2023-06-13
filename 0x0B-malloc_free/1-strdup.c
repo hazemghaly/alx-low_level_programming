@@ -21,5 +21,13 @@ for (n = 0; n < 13; n++)
 {
 str[n] = n + 1;
 }
+if (str != NULL)
+{
 return (str);
+}
+else
+{
+free(str);
+return (NULL);
+}
 }
