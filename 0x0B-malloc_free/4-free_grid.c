@@ -15,15 +15,7 @@ int h;
 int i;
 int **p;
 int width;
-if (width <= 0 || height <= 0)
-{
-return (NULL);
-}
 p = malloc(height * sizeof(int *));
-if (p == NULL)
-{
-return (NULL);
-}
 for (i = 0; i < height; i++)
 {
 p[i] = malloc(width * sizeof(int));
