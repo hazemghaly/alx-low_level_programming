@@ -30,7 +30,8 @@ return (NULL);
 }
 for (n = 0; n < len  ; n++)
 {
-p[n] = str++;
+p[n] = *str;
+str++;
 }
 return (p);
 }
