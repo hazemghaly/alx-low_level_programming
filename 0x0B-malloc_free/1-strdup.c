@@ -30,8 +30,11 @@ return (NULL);
 }
 for (n = 0; n < len  ; n++)
 {
+while (*str != '\0')
+{
 p[n] = _putchar(*str) ;
 str++;
+}
 }
 return (p);
 }
