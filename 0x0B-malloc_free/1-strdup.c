@@ -19,7 +19,7 @@ return (NULL);
 str = (char *) malloc(sizeof(char) * 13);
 for (n = 0; n < 13; n++)
 {
-str[n] = n;
+str[n] = 0 ;
 }
 return (str);
 }
