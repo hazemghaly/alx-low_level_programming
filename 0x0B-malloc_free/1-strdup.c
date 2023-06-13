@@ -5,8 +5,7 @@
 /**
  * *_strdup  - acreate of array malloc
  * @str: array
- * @i: first int
- * @n: size
+ * 
  * Return: Always 0 (Success) , NULL (Error)
  */
 
@@ -17,7 +16,7 @@ if (str == NULL)
 {
 return (NULL);
 }
-else 
+else
 {
 str = (char *) malloc(sizeof(char) * 10);
 for (n = 0; n < 10; n++)
