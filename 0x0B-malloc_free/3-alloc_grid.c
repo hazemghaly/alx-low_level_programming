@@ -26,6 +26,5 @@ if (width <= 0 || height <= 0)
 {
 return (NULL);
 }
-free(p);
 return (p);
 }
