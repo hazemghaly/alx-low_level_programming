@@ -5,8 +5,7 @@
  * main  - argument of program
  * @argc: argument
  * @argv: argument string
- * @x: int
- * @y: 2nd int
+ *
  *
  * Return: Always 0 (Success), 1 (Error)
  */
