@@ -28,4 +28,5 @@ for (n = 0; n < len  ; n++)
 _putchar(*str);
 }
 return (str);
+free(str);
 }
