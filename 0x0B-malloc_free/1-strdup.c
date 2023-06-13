@@ -32,7 +32,7 @@ for (n = 0; n < len + 1 ; n++)
 {
 if (*str != '\0')
 {
-p[n] = _putchar(*str);
+p[n] = _putchar(str[len]);
 }
 }
 return (p);
