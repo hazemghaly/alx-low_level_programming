@@ -13,10 +13,10 @@ char *str_concat(char *s1, char *s2)
 {
 int i;
 int x = 0;
-int y = 0;
+int y = strlen(s1);
 int len = 0;
 char *p;
-if (s1 == NULL || *s1 == "" )
+/*if (s1 == NULL || *s1 == "" )
 {
 y = 0;
 }
@@ -28,6 +28,7 @@ y++;
 s1++;
 }
 }
+*/
 if (s2 == NULL || *s2 == "")
 {
 x = 0;
