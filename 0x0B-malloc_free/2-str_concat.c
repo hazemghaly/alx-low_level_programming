@@ -16,31 +16,6 @@ int x = strlen(s2);
 int y = strlen(s1);
 int len = 0;
 char *p;
-/*if (s1 == NULL || *s1 == "" )
-{
-y = 0;
-}
-else
-{
-while (*s1 != '\0')
-{
-y++;
-s1++;
-}
-}
-
-if (s2 == NULL || *s2 == "")
-{
-x = 0;
-}
-else
-{
-while (*s2 != '\0')
-{
-x++;
-s2++;
-}
-}*/
 len = 1 + x + y;
 p = (char *) malloc(sizeof(char) * len);
 if (p == NULL)
