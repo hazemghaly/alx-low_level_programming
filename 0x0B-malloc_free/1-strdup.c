@@ -13,17 +13,15 @@ char *_strdup(char *str)
 {
 int n;
 str = (char *) malloc(sizeof(char) * 13);
-for (n = 0; n < 10; n++)
-{
-str[n] = n + 1;
-}
 if (str == NULL)
 {
 return (NULL);
 }
-else 
+else
 {
-free(str);
+for (n = 0; n < 13; n++)
+{
+str[n] = n + 1;
 }
 return (str);
 }
