@@ -30,7 +30,7 @@ return (NULL);
 p[0] = '\0';
 for (i = 1; i < ac; i++)
 {
-strcat(p[i], av[i]);
+strcat(p , av[i]);
 _putchar(p[i]);
 _putchar('\n');
 }
