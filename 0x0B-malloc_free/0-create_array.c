@@ -20,13 +20,13 @@ if (size  == 0)
 return (NULL);
 }
 str = (char*) malloc(sizeof(c) * size);
-for (i = 0; i < size; i++)
-{
-str[i] = c;
-}
 if (str == NULL)
 {
 return (NULL);
+}
+for (i = 0; i < size; i++)
+{
+str[i] = c;
 }
 return (str);
 }
