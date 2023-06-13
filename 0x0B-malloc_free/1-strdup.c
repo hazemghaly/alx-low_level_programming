@@ -29,4 +29,3 @@ str[n] = 0;
 }
 return (str);
 }
-}
