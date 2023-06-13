@@ -9,12 +9,12 @@
  * Return: Always 0 (Success) , NULL (Error)
  */
 
-**alloc_grid(int width, int height)
+int **alloc_grid(int width, int height)
 {
 int i;
 int **p;
 p = malloc(height * sizeof(int *));
-for(i = 0; i < nrows; i++)
+for(i = 0; i < height; i++)
 {
 p[i] = malloc(width * sizeof(int));
 }
