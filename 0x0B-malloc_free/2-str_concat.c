@@ -16,19 +16,29 @@ int x = 0;
 int y = 0;
 int len = 0;
 char *p;
-if (s1 == NULL || s2 == NULL)
+if (s1 == NULL)
 {
-return (NULL);
+y = 1
 }
+else
+{
 while (*s1 != '\0')
 {
 y++;
 s1++;
 }
+}
+if (s2 == NULL)
+{
+x = 1
+}
+else
+{
 while (*s2 != '\0')
 {
 x++;
 s2++;
+}
 }
 len = x + y;
 p = (char *) malloc(sizeof(char) * len + 1);
