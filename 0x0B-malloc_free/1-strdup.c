@@ -18,6 +18,10 @@ while (*str != '\0')
 len++;
 str++;
 }
+if (len == 0)
+{
+return (NULL);
+}
 str = (char *) malloc(sizeof(char) * len + 1);
 if (str == NULL)
 {
