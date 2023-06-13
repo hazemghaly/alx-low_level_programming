@@ -25,7 +25,7 @@ return (NULL);
 }
 for (n = 0; n < len  ; n++)
 {
-_putchar(str[n]);
+_putchar(*str);
 }
 return (str);
 }
