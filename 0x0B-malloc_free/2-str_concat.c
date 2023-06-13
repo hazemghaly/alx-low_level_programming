@@ -16,9 +16,9 @@ int x = 0;
 int y = 0;
 int len = 0;
 char *p;
-if (s1 == NULL)
+if (s1 == NULL || s1 == "")
 {
-y = 1;
+y = 0;
 }
 else
 {
@@ -28,9 +28,9 @@ y++;
 s1++;
 }
 }
-if (s2 == NULL)
+if (s2 == NULL || s2 == "")
 {
-x = 1;
+x = 0;
 }
 else
 {
