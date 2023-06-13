@@ -26,5 +26,9 @@ if (width <= 0 || height <= 0)
 {
 return (NULL);
 }
+for (i = 0; i < height; i++)
+{
+free(p[i]);
+}
 return (p);
 }
