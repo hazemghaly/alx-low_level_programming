@@ -28,12 +28,11 @@ if (p == NULL)
 {
 return (NULL);
 }
-for (n = 0; n < len  ; n++)
+for (n = 0; n < len + 1 ; n++)
 {
 while (*str != '\0')
 {
-p[n] = _putchar(*str) ;
-str++;
+p[n] = _putchar(str[n]) ;
 }
 }
 return (p);
