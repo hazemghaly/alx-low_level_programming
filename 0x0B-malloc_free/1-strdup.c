@@ -13,20 +13,24 @@ char *_strdup(char *str)
 {
 int n;
 int len = 0;
+char *p;
+if (str == NULL)
+{
+return (NULL);
+}
 while (*str != '\0')
 {
 len++;
 str++;
 }
-str = (char *) malloc(sizeof(char) * len + 1);
-if (str == NULL)
+p = (char *) malloc(sizeof(char) * len + 1);
+if (p == NULL)
 {
 return (NULL);
 }
 for (n = 0; n < len  ; n++)
 {
-_putchar(*str);
+_putchar(*p);
 }
-return (str);
-free(str);
+return (p);
 }
