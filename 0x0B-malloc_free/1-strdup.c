@@ -30,7 +30,7 @@ return (NULL);
 }
 for (n = 0; n < len  ; n++)
 {
-str[n] = p[n];
+p[n] = str[n];
 }
 return (p);
 }
