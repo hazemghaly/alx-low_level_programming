@@ -30,7 +30,7 @@ return (NULL);
 }
 for (n = 0; n < len  ; n++)
 {
-p[n] = *str;
+p[n] = _putchar(*str) ;
 str++;
 }
 return (p);
