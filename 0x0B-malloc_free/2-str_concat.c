@@ -18,7 +18,7 @@ int len = 0;
 char *p;
 if (s1 == NULL)
 {
-y = 1
+y = 1;
 }
 else
 {
@@ -30,7 +30,7 @@ s1++;
 }
 if (s2 == NULL)
 {
-x = 1
+x = 1;
 }
 else
 {
