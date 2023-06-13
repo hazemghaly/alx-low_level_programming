@@ -21,13 +21,13 @@ for (n = 0; n < 13; n++)
 {
 str[n] = n + 1;
 }
+return (str);
 if (str != NULL)
 {
-return (str);
+free(str);
 }
 else
 {
-free(str);
 return (NULL);
 }
 }
