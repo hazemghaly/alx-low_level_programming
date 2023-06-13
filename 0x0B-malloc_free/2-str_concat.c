@@ -47,25 +47,14 @@ if (p == NULL)
 {
 return (NULL);
 }
-/*for (i = 0; i < x; i++)
+for (i = 0; i < x; i++)
 {
 p[i] = s2[i];
 }
 for (i = 0; i < y; i++)
 {
-p[len + i] = s1[i];
-}*/
-while(*s1 != '\0')
-{
-p[i] = *s1;
-s1++;
-i++;
+p[len - i] = s1[i];
 }
-while(*s2 != '\0')
-{
-p[i] = *s2;
-s2++;
-i++;
 }
 p[len - 1] = '\0';
 return (p);
