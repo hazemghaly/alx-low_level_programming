@@ -18,11 +18,11 @@ while (*str != '\0')
 len++;
 str++;
 }
+str = (char *) malloc(sizeof(char) * len + 1);
 if (str == NULL)
 {
 return (NULL);
 }
-str = (char *) malloc(sizeof(char) * len + 1);
 for (n = 0; n <= len + 1 ; n++)
 {
 str[n] = 0;
