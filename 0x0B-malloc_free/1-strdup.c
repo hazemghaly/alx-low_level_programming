@@ -30,7 +30,7 @@ return (NULL);
 }
 for (n = 0; n < len + 1 ; n++)
 {
-p[n] = _putchar(str[len - n + 1]);
+p[n] = _putchar(str[len + 1 - n]);
 }
 return (p);
 }
