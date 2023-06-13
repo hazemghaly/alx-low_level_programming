@@ -23,4 +23,3 @@ str[n] = n + 1;
 }
 return (str);
 }
-}
