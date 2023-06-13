@@ -6,8 +6,6 @@
  * *create_array  - acreate of array
  * @c: array
  * @size: first int
- * @i: first int
- * @str: 2nd array
  * Return: Always 0 (Success) , NULL (Error)
  */
 
@@ -19,7 +17,7 @@ if (size  == 0)
 {
 return (NULL);
 }
-str = (char*) malloc(sizeof(c) * size);
+str = (char *) malloc(sizeof(c) * size);
 if (str == NULL)
 {
 return (NULL);
