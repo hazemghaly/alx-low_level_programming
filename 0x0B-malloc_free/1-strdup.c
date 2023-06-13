@@ -18,12 +18,12 @@ while (*str != '\0')
 len++;
 str++;
 }
-str = (char *) malloc(sizeof(char) * len );
+str = (char *) malloc(sizeof(char) * len + 1 );
 if (str == NULL || len == 1)
 {
 return (NULL);
 }
-for (n = 0; n <= len + 1 ; n++)
+for (n = 0; n <= len ; n++)
 {
 str[n] = 0;
 }
