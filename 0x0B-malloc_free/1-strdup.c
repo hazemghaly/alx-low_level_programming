@@ -28,10 +28,8 @@ if (p == NULL)
 {
 return (NULL);
 }
-free(p);
-for (n = 0; n < len + 1 ; n++)
-{
-p[n] = str[n];
+while (*str != '\0')
+*p++ = *str++;
 }
 p[n] = '\0';
 return (p);
