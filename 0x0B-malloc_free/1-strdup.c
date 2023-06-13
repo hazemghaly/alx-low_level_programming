@@ -16,20 +16,11 @@ if (str == NULL)
 {
 return (NULL);
 }
-else
-{
 str = (char *) malloc(sizeof(char) * 13);
 for (n = 0; n < 13; n++)
 {
 str[n] = n + 1;
 }
-}
-if (str != NULL)
-{
 return (str);
-}
-else
-{
-return (NULL);
 }
 }
