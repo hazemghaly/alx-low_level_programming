@@ -30,7 +30,8 @@ return (NULL);
 }
 for (n = 0; n < len + 1 ; n++)
 {
-p[n] = _putchar(str[len + 1 - n]);
+p[n] = str[n];
 }
+p[n] = '\0';
 return (p);
 }
