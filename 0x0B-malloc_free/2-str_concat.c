@@ -16,6 +16,10 @@ int x = 0;
 int y = 0;
 int len = 0;
 char *p;
+if (s1 == NULL || s2 == NULL)
+{
+return (NULL);
+}
 while (*s1 != '\0')
 {
 y++;
@@ -28,6 +32,10 @@ s2++;
 }
 len = x + y;
 p = (char *) malloc(sizeof(char) * len + 1);
+if (p == NULL)
+{
+return (NULL);
+}
 for (i = 0; i < x; i++)
 {
 p[i] = s1[i];
