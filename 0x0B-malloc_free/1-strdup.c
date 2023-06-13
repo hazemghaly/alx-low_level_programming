@@ -5,7 +5,7 @@
 /**
  * *_strdup  - acreate of array malloc
  * @str: array
- * 
+ *
  * Return: Always 0 (Success) , NULL (Error)
  */
 
@@ -18,7 +18,7 @@ return (NULL);
 }
 else
 {
-str = (char *) malloc(sizeof(char) * 10);
+str = (char *) malloc(sizeof(char) * 11);
 for (n = 0; n < 10; n++)
 {
 str[n] = n + 1;
