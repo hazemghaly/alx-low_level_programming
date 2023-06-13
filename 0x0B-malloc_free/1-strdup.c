@@ -23,7 +23,7 @@ for (n = 0; n < 13; n++)
 {
 str[n] = n + 1;
 }
+}
 free(str);
 return (str);
-}
 }
