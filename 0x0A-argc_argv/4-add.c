@@ -5,13 +5,13 @@
  * main  - add argument of program
  * @argc: argument
  * @argv: argument string
- * @y: 1st int
- * @i: 2nd int
+ *
+ *
  *
  * Return: 0 (sceuss),1 (Error)
  */
 
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 int y = 0;
 int i;
@@ -31,6 +31,6 @@ printf("Error\n");
 return (1);
 }
 }
-printf("%d\n",y);
+printf("%d\n" , y);
 return (0);
 }
