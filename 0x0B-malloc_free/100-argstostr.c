@@ -13,7 +13,7 @@ char *argstostr(int ac, char **av)
 {
 int i;
 int len = 0;
-char **p;
+char *p;
 if (ac == 0 || av == NULL)
 {
 return (NULL);
@@ -30,7 +30,7 @@ return (NULL);
 p[0] = '\0';
 for (i = 1; i < ac; i++)
 {
-p[i] = av[i];
+p[i] = *av[i];
 _putchar(p[i]);
 _putchar('\n');
 }
