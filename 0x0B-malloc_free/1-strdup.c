@@ -24,6 +24,5 @@ for (n = 0; n < 10; n++)
 str[n] = n + 1;
 }
 free(str);
-}
 return (str);
 }
