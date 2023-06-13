@@ -32,7 +32,7 @@ for (j = 0; j < width; j++)
 {
 for (i = 0; i < height; i++)
 {
-grid[j][i] = p[i];
+grid[j][i] = *p[j][i];
 }
 }
 for (i = 0; i < height; i++)
