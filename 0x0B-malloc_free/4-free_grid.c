@@ -12,7 +12,22 @@
 void free_grid(int **grid, int height)
 {
 int h;
-**alloc_grid(int width, int height);
+int i;
+int **p;
+int width;
+if (width <= 0 || height <= 0)
+{
+return (NULL);
+}
+p = malloc(height * sizeof(int *));
+if (p == NULL)
+{
+return (NULL);
+}
+for (i = 0; i < height; i++)
+{
+p[i] = malloc(width * sizeof(int));
+}
 for (h = 0; h < height; h++)
 {
 free(p[h]);
