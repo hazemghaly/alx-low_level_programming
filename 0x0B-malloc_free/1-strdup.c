@@ -19,10 +19,12 @@ return (NULL);
 }
 else
 {
-for (n = 0; n < 13; n++)
+free(str);
+/*for (n = 0; n < 13; n++)
 {
 str[n] = n + 1;
 }
+*/
 return (str);
 }
 }
