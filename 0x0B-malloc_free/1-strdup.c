@@ -18,7 +18,7 @@ return (NULL);
 }
 else
 {
-str = (char *) malloc(sizeof(char) * 11);
+str = (char *) malloc(sizeof(char) * 155555);
 for (n = 0; n < 10; n++)
 {
 str[n] = n + 1;
