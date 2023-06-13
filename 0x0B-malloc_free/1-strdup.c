@@ -26,7 +26,6 @@ str[n] = n + 1;
 }
 if (str != NULL)
 {
-free(str);
 return (str);
 }
 else
