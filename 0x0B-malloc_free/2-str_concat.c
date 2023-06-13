@@ -16,7 +16,7 @@ int x = 0;
 int y = 0;
 int len = 0;
 char *p;
-if (s1 == NULL || s1 = "")
+if (s1 == NULL || s1 = ' ')
 {
 y = 0;
 }
@@ -28,7 +28,7 @@ y++;
 s1++;
 }
 }
-if (s2 == NULL || s2 = "")
+if (s2 == NULL || s2 = ' ')
 {
 x = 0;
 }
