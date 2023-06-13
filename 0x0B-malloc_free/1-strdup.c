@@ -25,7 +25,7 @@ len++;
 str++;
 }
 str = (char *) malloc(sizeof(char) * len);
-for (n = 0; n =< len ; n++)
+for (n = 0; n <= len ; n++)
 {
 str[n] = 0;
 }
