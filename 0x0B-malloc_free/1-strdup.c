@@ -23,10 +23,9 @@ if (str == NULL)
 {
 return (NULL);
 }
-for (n = 0; n <= len - 1 ; n++)
+for (n = 0; n < len - 1 ; n++)
 {
 _putchar(str[n]);
 }
-free(str);
 return (str);
 }
