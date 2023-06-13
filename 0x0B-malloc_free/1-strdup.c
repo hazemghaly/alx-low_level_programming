@@ -25,7 +25,7 @@ return (NULL);
 }
 for (n = 0; n <= len ; n++)
 {
-str[n] = 0;
+str[n] = ' ' ;
 }
 return (str);
 }
