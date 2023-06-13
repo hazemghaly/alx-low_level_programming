@@ -5,32 +5,29 @@
  * main  - argument of program
  * @argc: argument
  * @argv: argument string
- * @x: first int
- * @y: 2nd int
- * @i: 3rd int
- * @coins: array of coins 
+ *
  *
  * Return: Always 0 (Success) , 1 (Error)
  */
 
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 int i;
 int y;
 int x = 0;
-int coins[] = {25 , 10 , 5 , 2 , 1};
+int coins[] = {25, 10, 5, 2, 1};
 y = atoi(argv[1]);
 if (argc == 2 || argv[1] == NULL)
 {
 for (i = 0 ; i < 5 ; i++)
 {
-while ( y >= coins[i])
+while (y >= coins[i])
 {
 x++;
 y = y -  coins[i];
 }
 }
-printf("%d\n",x);
+printf("%d\n" , x);
 }
 else
 {
