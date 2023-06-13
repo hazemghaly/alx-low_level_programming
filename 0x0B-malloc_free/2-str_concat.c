@@ -26,7 +26,7 @@ for (i = 0; i < y; i++)
 {
 p[i] = s1[i];
 }
-for (i = ; i < x; i++)
+for (i = 0; i < x; i++)
 {
 p[y + i] = s2[i];
 }
