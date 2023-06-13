@@ -15,10 +15,6 @@ int len = 0;
 char *p;
 int i;
 int x = strlen(str);
-if (str == NULL)
-{
-return (NULL);
-}
 len = x + 1;
 p = (char *) malloc(sizeof(char) * len);
 if (p == NULL)
