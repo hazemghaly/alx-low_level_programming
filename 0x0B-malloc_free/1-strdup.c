@@ -28,8 +28,8 @@ if (p == NULL)
 return (NULL);
 }
 while (*str != '\0')
+{
 *p++ = *str++;
 }
-*p = '\0';
 return (p);
 }
