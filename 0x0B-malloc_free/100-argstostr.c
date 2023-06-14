@@ -11,7 +11,8 @@
 
 char *argstostr(int ac, char **av)
 {
-int i;
+int i, j;
+int n = 0;
 int len = 0;
 char *p;
 if (ac == 0 || av == NULL)
@@ -20,18 +21,22 @@ return (NULL);
 }
 for (i = 0; i < ac; i++)
 {
-len = 1 + strlen(av[i]);
+len += strlen(av[i]);
 }
-p = malloc(sizeof(char) * len);
+p = malloc(sizeof(char) * len + 1);
 if (p == NULL)
 {
 return (NULL);
 }
-for (i = 1; i < ac; i++)
+for (i = 0; i < ac; i++)
 {
-strcat(p, av[i]);
-strcat(p, " ");
-_putchar(p[i]);
+for (j = 0 ; av[i][j] != '\0'; j++ , n++)
+{
+p[n] = av[i][j];
 }
+p[n] = '\n';
+n++
+}
+p[n] = '\0';
 return (p);
 }
