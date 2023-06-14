@@ -31,6 +31,9 @@ p[0] = '\0';
 for (i = 1; i < ac; i++)
 {
 strcat(p, av[i]);
+}
+for (i = 0; i < ac; i++)
+{
 _putchar(p[i]);
 _putchar('\n');
 }
