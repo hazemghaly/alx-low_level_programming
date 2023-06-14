@@ -30,11 +30,11 @@ return (NULL);
 for (i = 1; i < ac; i++)
 {
 strcat(p, av[i]);
-}
-for (i = 1; i < ac; i++)
+while (i !=0)
 {
 _putchar(p[i]);
 _putchar('\n');
+}
 }
 return (p);
 }
