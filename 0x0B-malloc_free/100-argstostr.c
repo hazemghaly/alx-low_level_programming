@@ -27,8 +27,7 @@ if (p == NULL)
 {
 return (NULL);
 }
-p[0] = '\0';
-for (i = 1; i < ac; i++)
+for (i = 0; i < ac; i++)
 {
 strcat(p, av[i]);
 }
