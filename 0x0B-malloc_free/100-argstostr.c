@@ -31,10 +31,10 @@ for (i = 1; i < ac; i++)
 {
 strcat(p, av[i]);
 }
-for (i = 0; i < ac; i++)
+for (i = 1; i < ac; i++)
 {
-_putchar(*p);
-}
+_putchar(p[i]);
 _putchar('\n');
+}
 return (p);
 }
