@@ -10,24 +10,23 @@
 
 char **strtow(char *str)
 {
-int x = strlen(str);
 int i;
 int len = 0;
 char *p;
 char *s, **m;
-if (str == "" || str == NULL)
+if (*str == '\0' || str == NULL)
 {
 return (NULL);
 }
-for (i = 0; i < str; i++, len++)
+for (i = 0; i < str[i]; i++, len++)
 {
-len += strlen(str[i]);
+len += strlen(str);
 }
 p = strdup (str);
 s = strtok(p, " ");
 m = (char **)malloc(sizeof(char *) * len);
 s = strtok(str, " ");
-for (i = 0; piece != NULL; i++)
+for (i = 0; s != NULL; i++)
 {
 if ((*s) == '\n')
 {
