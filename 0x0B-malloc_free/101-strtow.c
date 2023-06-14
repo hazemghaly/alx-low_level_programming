@@ -25,6 +25,10 @@ len += strlen(str);
 p = strdup (str);
 s = strtok(p, " ");
 m = (char **)malloc(sizeof(char *) * len);
+if (m == NULL)
+{
+return (NULL);
+}
 s = strtok(str, " ");
 for (i = 0; s != NULL; i++)
 {
