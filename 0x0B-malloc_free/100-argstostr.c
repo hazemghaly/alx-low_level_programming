@@ -27,7 +27,7 @@ if (p == NULL)
 {
 return (NULL);
 }
-for (i = 0; i < ac; i++)
+for (i = 1; i < ac; i++)
 {
 strcat(p, av[i]);
 }
@@ -35,5 +35,6 @@ for (i = 0; i < ac; i++)
 {
 _putchar(*p);
 }
+_putchar('\n');
 return (p);
 }
