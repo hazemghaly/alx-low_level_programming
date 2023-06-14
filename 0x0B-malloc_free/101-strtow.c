@@ -37,6 +37,10 @@ if ((*s) == '\n')
 s = strtok(NULL, " ");
 }
 m[i] = (char *)malloc(sizeof(char) * (strlen(s) + 1));
+if (m == NULL)
+{
+return (NULL);
+}
 s = strtok(NULL, " ");
 }
 if (m[i] == 0)
