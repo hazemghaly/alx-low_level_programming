@@ -21,10 +21,13 @@ if (p == NULL)
 {
 return (NULL);
 }
+else
+{
 for (i = 0; i < x; i++)
 {
 p[i] = str[i];
 }
 p[len - 1] = '\0';
+}
 return (p);
 }
