@@ -31,7 +31,7 @@ for (i = 0; i < ac; i++)
 {
 strcat(p, av[i]);
 }
-for (i = 0; i < ac; i++)
+for (i = 0; i < len - 1; i++)
 {
 _putchar(p[i]);
 }
