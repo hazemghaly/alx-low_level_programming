@@ -18,7 +18,7 @@ if (ac == 0 || av == NULL)
 {
 return (NULL);
 }
-for (i = 1; i < ac; i++)
+for (i = 0; i < ac; i++)
 {
 len = 1 + strlen(av[i]);
 }
