@@ -30,9 +30,7 @@ return (NULL);
 for (i = 1; i < ac; i++)
 {
 strcat(p, av[i]);
-while (i != 0)
-{
-p[0] = '\0';
+strcat (p, " ");
 _putchar(p[i]);
 _putchar('\n');
 }
