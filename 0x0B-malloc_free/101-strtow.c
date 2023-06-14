@@ -18,7 +18,7 @@ if (*str == '\0' || str == NULL)
 {
 return (NULL);
 }
-for (i = 0; i < str[i]; i++, len++)
+for (i = 0; i < str[i]; i++)
 {
 len += strlen(str);
 }
