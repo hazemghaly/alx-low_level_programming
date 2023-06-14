@@ -30,7 +30,7 @@ return (NULL);
 }
 for (i = 0; i < ac; i++)
 {
-for (j = 0 ; av[i][j] != '\0'; j++ , n++)
+for (j = 0 ; av[i][j] != '\0'; j++, n++)
 {
 p[n] = av[i][j];
 }
