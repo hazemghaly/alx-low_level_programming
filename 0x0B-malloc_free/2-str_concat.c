@@ -18,11 +18,11 @@ int len = 0;
 char *p;
 if (s1 == NULL)
 {
-s1 = "\0";
+s1 = NULL;
 }
 if (s2 == NULL)
 {
-s2 = "\0";
+s2 = NULL;
 }
 len = 1 + x + y;
 p = (char *) malloc(sizeof(char) * len);
