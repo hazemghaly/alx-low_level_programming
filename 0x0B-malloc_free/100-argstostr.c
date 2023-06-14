@@ -34,6 +34,5 @@ strcat (p, " ");
 _putchar(p[i]);
 _putchar('\n');
 }
-}
 return (p);
 }
