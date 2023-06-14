@@ -16,6 +16,14 @@ int x = strlen(s2);
 int y = strlen(s1);
 int len = 0;
 char *p;
+if (s1 == NULL)
+{
+s1 = "\0";
+}
+if (s2 == NULL)
+{
+s2 = "\0";
+}
 len = 1 + x + y;
 p = (char *) malloc(sizeof(char) * len);
 if (p == NULL)
