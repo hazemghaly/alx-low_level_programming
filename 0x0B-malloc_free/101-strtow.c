@@ -7,7 +7,6 @@
  * @str: array arg
  * Return: Always 0 (Success) , NULL (Error)
  */
-
 char **strtow(char *str)
 {
 int i;
@@ -25,10 +24,6 @@ len += strlen(str);
 p = strdup (str);
 s = strtok(p, " ");
 m = (char **)malloc(sizeof(char *) * len);
-if (m == NULL)
-{
-return (NULL);
-}
 s = strtok(str, " ");
 for (i = 0; s != NULL; i++)
 {
