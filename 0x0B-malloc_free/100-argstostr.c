@@ -33,7 +33,7 @@ strcat(p, av[i]);
 }
 for (i = 0; i < ac; i++)
 {
-_putchar(p[i]);
+_putchar(*p);
 }
 return (p);
 }
