@@ -21,12 +21,9 @@ if (str == NULL)
 {
 exit(98);
 }
-else
-{
 for (i = 0; i < b; i++)
 {
 str[i] = 0;
 }
 exit(*str);
-}
 }
