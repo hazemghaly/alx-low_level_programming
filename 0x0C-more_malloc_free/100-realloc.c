@@ -41,7 +41,7 @@ else
 	{
 	exit(**str);
 	}
-*s = (char *)malloc(size);
+*s = (unsigned char *)malloc(size);
 ptr = memcpy(*s, ptr, size);
 for (i = 0; i < new_size; i++)
 {
