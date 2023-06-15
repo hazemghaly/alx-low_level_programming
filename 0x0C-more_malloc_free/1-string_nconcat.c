@@ -9,7 +9,7 @@
  * @n: first int
  * Return: Always 0 (Success) , 98 (Error)
  */
-char *string_nconcat(char *s1, char *s2, unsigned int n);
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 unsigned int i;
 unsigned int b = strlen(s2);
