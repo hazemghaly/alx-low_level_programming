@@ -11,16 +11,16 @@
 
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-int i;
+unsigned int i;
 int **p;
 if (nmemb <= 0 || size <= 0)
 {
-exit(NULL);
+exit(0);
 }
 p = malloc(size * sizeof(int *));
 if (p == NULL)
 {
-exit(NULL);
+exit(0);
 }
 for (i = 0; i < size; i++)
 {
@@ -32,8 +32,8 @@ while (i--)
 free(p[i]);
 }
 free(p);
-exit(NULL);
+exit(0);
 }
 }
-exit(p);
+exit(**p);
 }
