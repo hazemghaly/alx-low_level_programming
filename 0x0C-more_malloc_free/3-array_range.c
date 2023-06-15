@@ -17,15 +17,15 @@ if (min <= 0 || max <= 0 || min > max)
 {
 return (NULL);
 }
-p = malloc(max * sizeof(int *));
+p = malloc(min * sizeof(int));
 if (p == NULL)
 {
 return (NULL);
 }
-for (i = 0; i < max; i++)
+for (i = 0; i < min; i++)
 {
-p[i] = malloc(min* sizeof(int));
-if (p[i] == 0)
+p[i] = malloc(max * sizeof(int*));
+/*if (p[i] == 0)
 {
 while (i--)
 {
@@ -33,7 +33,7 @@ free(p[i]);
 }
 free(p);
 return (NULL);
+}*/
 }
-}
-return (p);
+return (*p);
 }
