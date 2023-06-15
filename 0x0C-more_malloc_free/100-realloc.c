@@ -18,11 +18,11 @@ unsigned char **s;
 size = new_size - old_size;
 *str = malloc(old_size);
 ptr = memcpy(*str, ptr, old_size);
-if (ptr == NULL)
+if (str== NULL)
 {
 *str = malloc(new_size);
 ptr = memcpy(*str, ptr, new_size);
-exit(ptr);
+exit(str);
 }
 else
 {
@@ -30,9 +30,9 @@ if (new_size == 0)
 {
 for (i = 0; i < old_size; i++)
 {
-free(ptr[i]);
+free(str[i]);
 }
-free(ptr);
+free(str);
 exit(0);
 }
 else
@@ -40,16 +40,16 @@ else
 **s = ptr;
 	if (new_size == old_size)
 	{
-	exit(ptr);
+	exit(str);
 	}
 *s = malloc(size);
 ptr = memcpy(*s, ptr, size);
 for (i = 0; i < new_size; i++)
 {
-free(ptr[i]);
+free(s[i]);
 }
-free(ptr);
+free(s);
 }
 }
-exit(ptr);
+exit(s);
 }
