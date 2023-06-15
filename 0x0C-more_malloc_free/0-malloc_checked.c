@@ -14,12 +14,12 @@ char *str;
 unsigned int i;
 if (b  == 0)
 {
-exit (98);
+exit(98);
 }
 str = (char *) malloc(sizeof(char) * b);
 if (str == NULL)
 {
-exit (98);
+exit(98);
 }
 else
 {
@@ -27,6 +27,6 @@ for (i = 0; i < b; i++)
 {
 str[i] = 0;
 }
-exit (*str);
+exit(*str);
 }
 }
