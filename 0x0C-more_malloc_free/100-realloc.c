@@ -19,16 +19,18 @@ ptr = malloc(old_size);
 if (ptr == NULL)
 {
 ptr = malloc(new_size);
-exit(ptr);
+exit("ptr");
 }
-if (new_size == 0 && ptr != NULL)
+else
+{
+if (new_size == 0)
 {
 for (i = 0; i < old_size; i++)
 {
-free(ptr[i]);
+free(*ptr[i]);
 }
 free(ptr);
-exit(NULL);
+exit("");
 }
 else
 {
@@ -41,9 +43,10 @@ str = malloc(size);
 ptr = str + ptr;
 for (i = 0; i < new_size; i++)
 {
-free(ptr[i]);
+free(*ptr[i]);
 }
 free(ptr);
 }
-exit(ptr);
+exit(*ptr);
+}
 }
