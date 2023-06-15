@@ -16,13 +16,13 @@ if (b  == 0)
 {
 return (98);
 }
-else
-{
 str = (char *) malloc(sizeof(char) * size);
 if (str == NULL)
 {
 return (98);
 }
+else
+{
 for (i = 0; i < b; i++)
 {
 str[i] = c;
