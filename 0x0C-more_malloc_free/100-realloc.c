@@ -22,7 +22,7 @@ if (str== NULL)
 {
 *str = malloc(new_size);
 ptr = memcpy(*str, ptr, new_size);
-exit(str);
+exit(*str);
 }
 else
 {
@@ -37,7 +37,6 @@ exit(0);
 }
 else
 {
-**s = ptr;
 	if (new_size == old_size)
 	{
 	exit(str);
@@ -51,5 +50,5 @@ free(s[i]);
 free(s);
 }
 }
-exit(s);
+exit(*s);
 }
