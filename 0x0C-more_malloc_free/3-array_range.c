@@ -24,8 +24,8 @@ return (NULL);
 }
 for (i = 0; i < min; i++)
 {
-p[i] = malloc(max * sizeof(int*));
-/*if (p[i] == 0)
+p[i] = malloc(max * sizeof(int *));
+if (p[i] == 0)
 {
 while (i--)
 {
@@ -33,7 +33,7 @@ free(p[i]);
 }
 free(p);
 return (NULL);
-}*/
+}
 }
 return (*p);
 }
