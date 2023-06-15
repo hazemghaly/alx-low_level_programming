@@ -14,19 +14,19 @@ char *str;
 unsigned int i;
 if (b  == 0)
 {
-return (98);
+exit (98);
 }
-str = (char *) malloc(sizeof(char) * size);
+str = (char *) malloc(sizeof(char) * b);
 if (str == NULL)
 {
-return (98);
+exit (98);
 }
 else
 {
 for (i = 0; i < b; i++)
 {
-str[i] = c;
+str[i] = 0;
 }
-return (str);
+exit (*str);
 }
 }
