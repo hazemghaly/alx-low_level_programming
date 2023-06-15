@@ -14,7 +14,7 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
 unsigned int size, i;
 unsigned char **str = ptr;
-unsigned char **s;
+unsigned char **s = NULL;
 size = new_size - old_size;
 *str = malloc(old_size);
 ptr = memcpy(*str, ptr, old_size);
@@ -22,7 +22,7 @@ if (str== NULL)
 {
 *str = malloc(new_size);
 ptr = memcpy(*str, ptr, new_size);
-exit(*str);
+exit(**str);
 }
 else
 {
@@ -39,9 +39,9 @@ else
 {
 	if (new_size == old_size)
 	{
-	exit(str);
+	exit(**str);
 	}
-*s = malloc(size);
+*s = (char *)malloc(size);
 ptr = memcpy(*s, ptr, size);
 for (i = 0; i < new_size; i++)
 {
@@ -50,5 +50,5 @@ free(s[i]);
 free(s);
 }
 }
-exit(*s);
+exit(**s);
 }
