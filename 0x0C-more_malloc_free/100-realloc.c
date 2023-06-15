@@ -3,8 +3,8 @@
 #include <stdlib.h>
 #include <string.h>
 /**
- * *array_range - returns a pointer to a 2 dimensional array of integers.
- * @*ptr: void
+ * *_realloc - realloc function.
+ * @ptr: array
  * @old_size: 1st int
  * @new_size: 2nd int
  * Return: Always 0 (Success) , NULL (Error)
