@@ -25,6 +25,16 @@ exit(0);
 for (i = 0; i < size; i++)
 {
 p[i] = malloc(nmemb * sizeof(int));
+p[i] = 0;
+}
+if (p[0] == 0)
+{
+while (i--)
+{
+free(p[i]);
+}
+free(p);
+exit(0);
 }
 exit(**p);
 }
