@@ -3,14 +3,14 @@
 #include <stdlib.h>
 #include <string.h>
 /**
- * _memset - fill memory
+ * *_memset - fill memory
  * @s: first char
  * @b: second char
  * @n: int
  * Return: Always s (Success)
  */
 
-char _memset(char *s, char b, unsigned int n)
+char *_memset(char *s, char b, unsigned int n)
 {
 int i;
 for (i = 0; n > 0 ; i++)
