@@ -26,14 +26,5 @@ for (i = 0; i < size; i++)
 {
 p[i] = 0;
 }
-if (p[0] == 0)
-{
-while (i--)
-{
-free(p[i]);
-}
-free(p);
-return (NULL);
-}
 return (p);
 }
