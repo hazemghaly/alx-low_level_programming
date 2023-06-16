@@ -10,20 +10,11 @@
 
 void *malloc_checked(unsigned int b)
 {
-char *str;
-unsigned int i;
+int *str;
 if (b  == 0)
 {
 exit(98);
 }
-str = (char *) malloc(sizeof(char) * b);
-if (str == NULL)
-{
-exit(98);
-}
-for (i = 0; i < b; i++)
-{
-str[i] = 0;
-}
-exit(*str);
+str =  malloc(b);
+return(str);
 }
