@@ -24,7 +24,7 @@ else if (argc == 3 && argc != 1 && argc != 2)
 x = atoi(argv[1]);
 y = atoi(argv[2]);
 pro = mul (x, y);
-printf("%d\n" , x);
+printf("%d\n", x);
 }
 return (0);
 }
