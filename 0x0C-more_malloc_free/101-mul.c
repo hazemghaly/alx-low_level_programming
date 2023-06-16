@@ -17,11 +17,7 @@ int x;
 int y;
 if (argc == 1 || argc == 2 || argc >= 4)
 {
-_putchar('E');
-_putchar('r');
-_putchar('r');
-_putchar('o');
-_putchar('r');
+_puts('Error');
 _putchar('\n');
 return (98);
 }
