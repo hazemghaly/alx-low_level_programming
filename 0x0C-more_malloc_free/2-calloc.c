@@ -2,23 +2,24 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-/** *_memset - fill memory
+/**
+ * _memset - fill memory
  * @s: first char
  * @b: second char
  * @n: int
  * return :n sceuss
- */ 
+ */
 
 char _memset(char *s, char b, unsigned int n)
 {
 int i;
 char *ptr = s;
-for (i = 0; n > 0 ; i++ )
+for (i = 0; n > 0 ; i++)
 {
-s[i] = b;    
+s[i] = b;
 n--;
 }
-return(ptr);
+return (ptr);
 }
 
 /**
@@ -31,7 +32,7 @@ return(ptr);
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 void *p;
-if (nmemb = 0 || size = 0)
+if (nmemb == 0 || size == 0)
 {
 return (NULL);
 }
