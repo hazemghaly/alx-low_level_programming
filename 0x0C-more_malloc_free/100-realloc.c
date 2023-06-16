@@ -18,7 +18,7 @@ unsigned char **s = NULL;
 size = new_size - old_size;
 *str = malloc(old_size);
 ptr = memcpy(*str, ptr, old_size);
-if (str== NULL)
+if (str == NULL)
 {
 *str = malloc(new_size);
 ptr = memcpy(*str, ptr, new_size);
