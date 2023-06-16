@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <string.h>
 /**
- * *str_concat  - concatenates two strings malloc
+ * *string_nconcat  - concatenates two strings malloc
  * @s1: 1st array
  * @s2: 2nd array
  * @n: first int
