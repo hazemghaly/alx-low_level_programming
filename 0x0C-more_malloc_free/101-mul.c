@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "main.h"
 
 /**
  * main  - argument of program
@@ -12,19 +13,24 @@
 
 int main(int argc, char *argv[])
 {
-int x, pro;
+int x;
 int y;
 if (argc == 1 || argc == 2 || argc >= 4)
 {
-printf("Error\n");
+_putchar('E');
+_putchar('r');
+_putchar('r');
+_putchar('o');
+_putchar('r');
+_putchar('\n');
 return (98);
 }
 else if (argc == 3 && argc != 1 && argc != 2)
 {
 x = atoi(argv[1]);
 y = atoi(argv[2]);
-pro = mul (x, y);
-printf("%d\n", x);
+x  = x * y;
+_putchar(x);
 }
 return (0);
 }
