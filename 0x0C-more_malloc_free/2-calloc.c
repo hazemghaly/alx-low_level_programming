@@ -15,12 +15,12 @@ unsigned int i;
 int **p;
 if (nmemb <= 0 || size <= 0)
 {
-exit(0);
+return (NULL);
 }
 p = malloc(size * sizeof(int *));
 if (p == NULL)
 {
-exit(0);
+return (NULL);
 }
 for (i = 0; i < size; i++)
 {
@@ -34,7 +34,7 @@ while (i--)
 free(p[i]);
 }
 free(p);
-exit(0);
+return (NULL);
 }
-exit(**p);
+return (p);
 }
