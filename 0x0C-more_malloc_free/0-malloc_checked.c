@@ -16,5 +16,5 @@ if (b  == 0)
 exit(98);
 }
 str =  malloc(b);
-return(str);
+return (str);
 }
