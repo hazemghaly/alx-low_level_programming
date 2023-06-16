@@ -7,7 +7,7 @@
  * @s: first char
  * @b: second char
  * @n: int
- * return :n sceuss
+ * Return: Always s (Success) 
  */
 
 char _memset(char *s, char b, unsigned int n)
