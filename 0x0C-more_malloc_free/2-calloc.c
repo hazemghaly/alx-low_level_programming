@@ -40,6 +40,6 @@ if (p == NULL)
 {
 return (NULL);
 }
-_memset(p, 0, sizeof(int *) * size);
+_memset(p, 0, sizeof(int *) * nmemb);
 return (p);
 }
