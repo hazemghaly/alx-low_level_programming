@@ -17,11 +17,11 @@ unsigned int a = strlen(s1);
 char *p;
 if (s1 == NULL)
 {
-s1 = NULL;
+s1 = "";
 }
 if (s2 == NULL)
 {
-s2 = NULL;
+s2 = "";
 }
 n = 1 + a + b;
 p = malloc(n);
