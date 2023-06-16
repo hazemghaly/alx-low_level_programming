@@ -24,7 +24,7 @@ if (s2 == NULL)
 s2 = NULL;
 }
 n = 1 + a + b;
-p = (char *) malloc(sizeof(char) * n);
+p = malloc(n);
 if (p == NULL)
 {
 return (NULL);
