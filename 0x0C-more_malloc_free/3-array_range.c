@@ -24,7 +24,7 @@ p = malloc(sizeof(int) * i);
 	}
 for (j = 0; j < i; j++)
 {
-p[i] = min++;
+p[j] = min++;
 }
 return (p);
 }
