@@ -17,14 +17,13 @@ if (nmemb <= 0 || size <= 0)
 {
 return (NULL);
 }
-p = malloc(size * sizeof(int *));
+p = malloc(size * nmemb);
 if (p == NULL)
 {
 return (NULL);
 }
 for (i = 0; i < size; i++)
 {
-p[i] = malloc(nmemb * sizeof(int));
 p[i] = 0;
 }
 if (p[0] == 0)
