@@ -12,13 +12,13 @@ if (d)
 {
 if (d->name == NULL)
 {
-printf("Name: nil\n");
+printf("Name: (nil)\n");
 printf("Age: %f\n", d->age);
 printf("Owner: %s\n", d->owner);
 }
 else if (d->owner == NULL)
 {
-printf("Owner: nil\n");
+printf("Owner: (nil)\n");
 printf("Name: %s\n", d->name);
 printf("Age: %f\n", d->age);
 }
