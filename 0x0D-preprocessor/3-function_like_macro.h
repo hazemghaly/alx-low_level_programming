@@ -1,5 +1,6 @@
 #include <stdio.h>
 #define ABS(x)
+#define _FUNCTION_LIKE_MACRO_H
 /**
  * main -  function description
  *
