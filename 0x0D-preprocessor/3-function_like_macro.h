@@ -1,4 +1,4 @@
-#include <stdio.h>
+#ifndef _FUNCTION_LIKE_MACRO_H
 #define ABS(x)
 #define _FUNCTION_LIKE_MACRO_H
 /**
@@ -8,12 +8,14 @@
  */
 int main(void)
 {
-if (x >= 0)
+int n
+	if (n >= 0)
 {
-return (x);
+return (n);
 }
 else
 {
-	return (-x);
+	return (-n);
 }
 }
+#endif
