@@ -2,6 +2,6 @@
 #include <stdlib.h>
 int main()
 {
-_putchar("__FILE__");
+printf("%s\n", __FILE__);
 return (0);	
 }
