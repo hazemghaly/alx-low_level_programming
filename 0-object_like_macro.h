@@ -1,3 +1,5 @@
-#include <stdio.h>
+#ifndef PREPRO_H
+#define PREPRO_H
+
 #define SIZE 1024
-malloc(SIZE);
+#endif
