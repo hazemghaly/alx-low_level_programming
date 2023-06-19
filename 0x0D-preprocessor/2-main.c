@@ -1,7 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
-int main()
+/**
+ * main -  function description
+ *
+ * Return: 0(sucess)
+ */
+int main(void)
 {
 printf("%s\n", __FILE__);
-return (0);	
+return (0);
 }
