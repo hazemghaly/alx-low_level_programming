@@ -1,3 +1,3 @@
 #include <stdio.h>
-#define SIZE 1020
-
+#define SIZE 1024
+malloc(SIZE);
