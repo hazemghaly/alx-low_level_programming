@@ -67,4 +67,5 @@ if (Dog->name == NULL || Dog->owner == NULL)
 Dog->name = _strcpy(Dog->name, name);
 Dog->owner = _strcpy(Dog->owner, owner);
 Dog->age = age;
+return (Dog);
 }
