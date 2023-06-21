@@ -20,7 +20,7 @@ if (array != NULL  || cmp != NULL)
 	{
 	cmp(array[i]);
 	}
-return (array[1]);
+return (i);
 }
 return (-1);
 }
