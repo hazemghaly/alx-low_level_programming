@@ -18,7 +18,7 @@ _putchar(*name);
 int main(void)
 {
 void (*f)(char *);
-*f = &print_name;
+f = &print_name;
 (*f)(name);
 return (0);
 }
