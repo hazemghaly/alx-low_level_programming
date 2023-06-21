@@ -1,3 +1,4 @@
+#include <stdlib.h>
 #include <stdio.h>
 #include "function_pointers.h"
 /**
@@ -9,11 +10,9 @@
  */
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
-void (*action)(int)) = malloc(sizeof(int) * size);
-if (!=action)
+array =  malloc(sizeof(int) * size + 1);
+if (array != NULL)
 {
-return (NULL);
+action(*array);
 }
-array[size](action);
 }
-
