@@ -13,6 +13,8 @@ void array_iterator(int *array, size_t size, void (*action)(int))
 array =  malloc(sizeof(int) * size);
 if (array != NULL)
 {
+	while (size != 0)
+		free(array);
 action(*array);
 }
 }
