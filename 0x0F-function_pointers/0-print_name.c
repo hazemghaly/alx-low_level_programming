@@ -8,17 +8,6 @@
  */
 void print_name(char *name, void (*f)(char *))
 {
-_putchar(*name);
-}
-/**
- * main - main
- *
- * Return: 0
- */
-int main(void)
-{
-void (*f)(char *);
-f = &print_name;
-(*f)(name);
-return (0);
+if (name != NULL && f != NULL)	
+f(name);
 }
