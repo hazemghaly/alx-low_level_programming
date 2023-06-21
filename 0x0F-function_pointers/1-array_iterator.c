@@ -10,7 +10,7 @@
  */
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
-array =  malloc(sizeof(int) * size + 1);
+array =  malloc(sizeof(int) * size);
 if (array != NULL)
 {
 action(*array);
