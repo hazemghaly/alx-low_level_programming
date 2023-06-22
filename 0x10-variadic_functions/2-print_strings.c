@@ -27,7 +27,7 @@ printf("%d", x);
 }
 else
 {
-printf("(nil)");
+printf("nil");
 }
 }
 printf("\n");
