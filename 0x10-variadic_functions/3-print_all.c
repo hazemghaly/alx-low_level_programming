@@ -11,39 +11,40 @@
 void print_all(const char * const format, ...)
 {
 va_list args;
-unsigned int i;
-va_start(args, n);
-if (separator == NULL)
+unsigned int j, n;
+int a;
+double b;
+char x;
+char *y;
+n = strlen(format);
+va_start(args, format);
+while (j < n)
 {
-exit(0);
-}
-while (i < n)
-{
-if (format[i] == 'c')
+if (format[j] == 'c')
 {
 char x = va_arg(args, char);
 printf("%c,", x);
 }
-else if (format[i] == 'f')
+if (format[j] == 'f')
 {
-double x = va_arg(args, double);
-printf("%f,", x);
+double b = va_arg(args, double);
+printf("%f,", b);
 }
-else if (format[i] == 'i')
+else (format[j] == 'i')
 {
-int x = va_arg(args, int);
-printf("%d,", x);
+a = va_arg(args, int);
+printf("%d,", a);
 }
-else if (format[i] == 's')
+while (format[j] == 's')
 {
-	if (s == NULL)
+	if ( format[j] == '\0')
 	{
 	printf("nil");
 	}
-char *x = va_arg(args, char *);
-printf("%c,", x);
+y = va_arg(args, char *);
+printf("%s,", y);
 }
-i++;
+j++;
 }
 printf("\n");
 va_end(args);
