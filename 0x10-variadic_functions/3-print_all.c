@@ -14,36 +14,31 @@ va_list args;
 unsigned int j, n;
 int a;
 double b;
-char x;
-char *y;
+char str;
+char *separator = ", ";
 n = strlen(format);
 va_start(args, format);
 while (j < n)
 {
-if (format[j] == 'c')
+switch (format[j])
 {
-char x = va_arg(args, char);
-printf("%c,", x);
-}
-if (format[j] == 'f')
-{
-double b = va_arg(args, double);
-printf("%f,", b);
-}
-else (format[j] == 'i')
-{
-a = va_arg(args, int);
-printf("%d,", a);
-}
-while (format[j] == 's')
-{
-	if ( format[j] == '\0')
+case 'c':
+printf("%s%c", separator, va_arg(args, int));
+break;
+case 'f':
+printf("%s%f", separator,va_arg(args, double);
+break;
+case 'i':
+printf("%s%d", separator,va_arg(args, int);
+break;
+case 's':
+str = va_arg(args, char *);
+	if ( str[j] == '\0')
 	{
 	printf("nil");
 	}
-y = va_arg(args, char *);
-printf("%s,", y);
-}
+printf("%s%s", separator, str);
+break;
 j++;
 }
 printf("\n");
