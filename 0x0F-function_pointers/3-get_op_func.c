@@ -16,12 +16,14 @@ op_t ops[] = {
 {"%", op_mod},
 {NULL, NULL}
 };
-int i;
-(*get_op_func[])(int, int) = {+, -, *, /, %};
-if (s != '+' || s != '-' || s != '*' || s != '/' || s != '%')
+int i = 0;
+while (i < 5)
 {
-return (NULL);
+if (ops[i].op != NULL && *(ops[i].op) != *s)
+{
+return (ops[i].f);
 }
-get_op_func[s](a, b);
-return (0);
+i++;
+}
+return (NULL);
 }
