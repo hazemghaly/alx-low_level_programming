@@ -11,10 +11,8 @@
 void print_all(const char * const format, ...)
 {
 va_list args;
-unsigned int j, n;
-int a;
-double b;
-char str;
+unsigned int j = 0, n;
+char *str;
 char *separator = ", ";
 n = strlen(format);
 va_start(args, format);
@@ -26,10 +24,10 @@ case 'c':
 printf("%s%c", separator, va_arg(args, int));
 break;
 case 'f':
-printf("%s%f", separator,va_arg(args, double);
+printf("%s%f", separator, va_arg(args, double));
 break;
 case 'i':
-printf("%s%d", separator,va_arg(args, int);
+printf("%s%d", separator, va_arg(args, int));
 break;
 case 's':
 str = va_arg(args, char *);
@@ -40,6 +38,7 @@ str = va_arg(args, char *);
 printf("%s%s", separator, str);
 break;
 j++;
+}
 }
 printf("\n");
 va_end(args);
