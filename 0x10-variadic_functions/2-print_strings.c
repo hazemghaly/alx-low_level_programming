@@ -22,12 +22,15 @@ return;
 }
 for (i = 0; i < n; i++)
 {
+str = va_arg(args, char *);
 if (str[i] == '\0')
 {
-printf("nil");
+printf("(nil)");
 }
-str = va_arg(args, char *);
+else
+{
 printf("%s", str);
+}
 if (i != (n - 1))
 {
 printf("%s", separator);
