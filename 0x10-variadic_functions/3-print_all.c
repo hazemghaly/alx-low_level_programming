@@ -31,7 +31,7 @@ printf("%s%d", separator, va_arg(args, int));
 break;
 case 's':
 str = va_arg(args, char *);
-	if ( str[j] == '\0')
+	if (str[j] == '\0')
 	{
 	printf("nil");
 	}
@@ -39,6 +39,7 @@ printf("%s%s", separator, str);
 break;
 j++;
 }
+j++;
 }
 printf("\n");
 va_end(args);
