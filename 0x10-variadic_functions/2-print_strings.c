@@ -23,6 +23,7 @@ for (i = 0; i < n; i++)
 if (separator[i] != '\0')
 {
 printf("nil");
+printf(", ");
 }
 x = va_arg(args, int);
 printf("%d", x);
