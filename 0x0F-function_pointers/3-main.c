@@ -12,7 +12,7 @@
 
 int main(int argc, char *argv[])
 {
-        int(*function)(int, int), a, b;
+int(*function)(int, int), num1,num2;
 if (argc != 4)
 {
 printf("Error\n"), exit(98);
@@ -24,9 +24,10 @@ if (!function)
 {
 printf("Error\n"), exit(99);
 }
-        if ((*function == '/' && num2 == 0) ||(*function == '%' && num2 == 0))
+        if ((argv[2][0]== '/' && num2 == 0) ||(argv[2][0] == '%' && num2 == 0))
         {
         printf("Error\n"), exit(100);
         }
 printf("%d\n", function(num1, num2));
 return (0);
+}
