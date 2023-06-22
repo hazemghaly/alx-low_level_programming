@@ -20,7 +20,7 @@ exit(0);
 }
 for (i = 0; i < n; i++)
 {
-if (separator[i] != NULL)
+if (separator[i] != '\0')
 {
 x = va_arg(args, int);
 printf("%d", x);
