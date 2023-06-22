@@ -2,8 +2,8 @@
 #include "3-calc.h"
 /**
  * get_op_func - get operater
- * @a: first int
- * @b: 2nd int
+ * @s: char
+ *
  * Return: Nothing.
  */
 int (*get_op_func(char *s))(int, int)
