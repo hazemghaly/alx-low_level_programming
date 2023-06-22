@@ -20,7 +20,7 @@ exit(98);
 num1 = atoi(argv[1]);
 num2 = atoi(argv[3]);
 function = get_op_func(argv[2]);
-if (!function)
+if (!function || argv[1] != '\0')
 {
 printf("Error\n");
 exit(99);
