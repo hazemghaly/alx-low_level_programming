@@ -13,7 +13,7 @@ void print_all(const char * const format, ...)
 va_list args;
 unsigned int j = 0, n;
 char *str;
-char *separator = ", ";
+char *separator = "";
 n = strlen(format);
 va_start(args, format);
 while (j < n)
@@ -39,6 +39,7 @@ printf("%s%s", separator, str);
 break;
 j++;
 }
+separator = ", ";
 j++;
 }
 printf("\n");
