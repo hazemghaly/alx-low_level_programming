@@ -26,6 +26,7 @@ printf("nil");
 }
 x = va_arg(args, int);
 printf("%d", x);
+printf(", ");
 }
 printf("\n");
 va_end(args);
