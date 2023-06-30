@@ -17,21 +17,6 @@ char *str;
 unsigned int len;
 struct list_s *next;
 } list_t;
-/**
- * _strlen -  lrngth of string
- * @s: first number
- * Return: 0 (scuess)
- */
-int _strlen(char *s)
-{
-int longi = 0;
-while (*s != '\0')
-{
-longi++;
-s++;
-}
-return (longi);
-}
 size_t print_list(const list_t *h);
 size_t list_len(const list_t *h);
 list_t *add_node(list_t **head, const char *str);
