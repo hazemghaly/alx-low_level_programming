@@ -22,7 +22,7 @@ if (nodeshead->str == NULL)
 free(nodeshead);
 return (NULL);
 }
-nodeshead->len = _strlen(nodeshead->str);
+nodeshead->len = strlen(nodeshead->str);
 }
 if (node)
 {
