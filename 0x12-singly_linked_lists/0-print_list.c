@@ -8,7 +8,7 @@
 size_t print_list(const list_t *h)
 {
 size_t i = 0;
-len = strlen(h->str);
+int len = strlen(h->str);
 if (len == 0)
 {
 printf("[0] (nil)");
