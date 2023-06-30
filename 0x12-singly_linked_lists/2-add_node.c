@@ -1,7 +1,8 @@
 #include "lists.h"
 /**
- * list_len- returns the number of elements in a linked
- * @h: 1st member
+ * add_node- add  in a linked
+ * @head: 1st member
+ * @str: char
  *
  * Return: Always 0 (Success) , NULL (Error)
  */
