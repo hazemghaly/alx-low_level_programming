@@ -12,7 +12,7 @@ if (!head)
 {
 return;
 }
-node = head
+node = head;
 while (node)
 {
 nodeshead = node->next;
