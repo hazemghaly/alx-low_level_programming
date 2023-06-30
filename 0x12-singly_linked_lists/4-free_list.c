@@ -1,5 +1,5 @@
 #include "lists.h"
-/** 
+/**
  * free_list- free a linked
  * @head: 1st member
  *
