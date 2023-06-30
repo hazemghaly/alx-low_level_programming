@@ -1,7 +1,7 @@
 #include "lists.h"
 void _tortoise(void) __attribute__ ((tortoise));
-/** 
- * tortoise- fexe before main
+/**
+ * _tortoise - fexe before main
  *
  * Return: Always 0 (Success) , NULL (Error)
  */
