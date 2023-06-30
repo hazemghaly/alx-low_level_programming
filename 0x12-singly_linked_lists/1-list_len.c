@@ -8,11 +8,6 @@
 size_t list_len(const list_t *h)
 {
 size_t i = 0;
-int len = strlen(h->str);
-if (len == 0)
-{
-return (0);
-}
 while (h)
 {
 h = h->next;
