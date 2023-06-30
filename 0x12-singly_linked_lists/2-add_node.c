@@ -12,7 +12,7 @@ list_t *nodeshead = malloc(sizeof(lists_t));
 if (!head || !nodeshead)
 {
 return (NULL);
-{
+}
 if (str != NULL)
 {
 nodeshead->str = strdup(str);
