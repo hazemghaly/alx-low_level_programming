@@ -3,7 +3,7 @@
  * print_list- singly linked list
  * @h: 1st member
  *
- * Description: singly linked list node structure
+ * Return: Always 0 (Success) , NULL (Error)
  */
 size_t print_list(const list_t *h)
 {
