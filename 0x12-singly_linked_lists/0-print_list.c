@@ -13,7 +13,7 @@ if (len == 0)
 {
 printf("[0] (nil)");
 }
-while(h)
+while (h)
 {
 printf("[%d] %s\n", len, h->str);
 h = h->next;
