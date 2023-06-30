@@ -1,0 +1,28 @@
+#include "lists.h"
+/**
+ * list_len- returns the number of elements in a linked
+ * @h: 1st member
+ *
+ * Return: Always 0 (Success) , NULL (Error)
+ */
+list_t *add_node(list_t **head, const char *str)
+{
+list_t *nodeshead = malloc(sizeof(lists_t));
+if (!head || !nodeshead)
+{
+return (NULL);
+{
+if (str != NULL)
+{
+nodeshead->str = strdup(str);
+if (nodeshead->str == NULL)
+{
+free(nodeshead);
+return (NULL);
+}
+nodeshead->len = _strlen(nodeshead->str);
+}
+nodeshead->next = *head;
+*head = nodeshead;
+return (nodeshead);
+}
