@@ -1,5 +1,5 @@
 #include "lists.h"
-/** 
+/**
  * add_node_end- add  in a linked
  * @head: 1st member
  * @str: char
