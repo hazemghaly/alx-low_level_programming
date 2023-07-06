@@ -12,6 +12,6 @@ if (index > 63)
 {
 return (-1);
 }
-l = (l | (1 << (index - 1)));
+l = (l & (1 << (index - 1)));
 return (1);
 }
