@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * SETSBIT -  conut sets
- * @n: the number
+ * @j: the number
  *
  * Return: value of the bit
  */
