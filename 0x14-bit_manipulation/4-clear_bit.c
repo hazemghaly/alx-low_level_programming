@@ -5,7 +5,7 @@
  * @index: the index of the bit we want to print
  * Return: value of the bit
  */
-int clear_bit(unsigned long int *n, unsigned int index);
+int clear_bit(unsigned long int *n, unsigned int index)
 {
 unsigned long int bit = *n;
 if (index > 63)
