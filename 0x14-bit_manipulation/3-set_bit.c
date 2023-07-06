@@ -13,5 +13,5 @@ if (index > 63)
 return (-1);
 }
 l = ((1 << index) | l);
-return (l);
+return (1);
 }
