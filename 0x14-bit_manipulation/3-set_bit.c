@@ -12,6 +12,6 @@ if (index > 63)
 {
 return (-1);
 }
-l = ((1 << index) | l);
+l = (l | (1 << (k - 1)));
 return (1);
 }
