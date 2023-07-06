@@ -7,10 +7,9 @@
  */
 void print_binary(unsigned long int n)
 {
-	unsigned long int r;
 if (n > 1)
 {
-r = n >> 1;
-print_binary(r);
+print_binary(n >> 1);
 }
+_putchar(n);
 }
