@@ -12,6 +12,6 @@ if (index > 63)
 {
 return (-1);
 }
-bit = ~(1  << index) & bit;
+bit = (bit & (~(1 << (index - 1))));
 return (1);
 }
