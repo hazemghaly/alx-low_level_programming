@@ -10,7 +10,7 @@ void print_binary(unsigned long int n)
 int i = sizeof(n) * 8;
 for (; i != -1; i--)
 {
-n = ((n & (1 << i)) >> i) ;
+	n = (n & (1 >> i)) ;
 _putchar(n);
 }
 }
