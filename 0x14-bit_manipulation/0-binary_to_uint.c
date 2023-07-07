@@ -17,7 +17,9 @@ return 0;
 for (j = len - 1; j >= 0; j--)
 {
 if (b[j] != '0' && b[j] != '1')
+{
 return (0);
+}
 if (b[j] == '1')
 {
 i += a;
