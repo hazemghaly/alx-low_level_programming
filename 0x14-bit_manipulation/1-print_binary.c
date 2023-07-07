@@ -7,9 +7,10 @@
  */
 void print_binary(unsigned long int n)
 {
-if (n > 1)
+int i = sizeof(n) * 8;
+for (; i != -1; i--)
 {
-print_binary(((n >> 1) & 1));
-}
+n = ((n & (1 << i)) >> i) ;
 _putchar(n);
+}
 }
