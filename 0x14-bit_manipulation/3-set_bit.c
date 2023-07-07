@@ -11,5 +11,5 @@ if (index > 63)
 {
 return (-1);
 }
-return (*n | (1 << index));
+return (!!(*n |= 1L << index));
 }
