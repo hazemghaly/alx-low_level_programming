@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * clear_bit -  sets the value of a bit to 1 at a given index.
+ * clear_bit -  clear the value of a bit to 1 at a given index.
  * @n: the number
  * @index: the index of the bit we want to print
  * Return: value of the bit
