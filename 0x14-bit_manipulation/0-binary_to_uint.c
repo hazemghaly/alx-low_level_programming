@@ -12,7 +12,7 @@ int j;
 len = strlen(b);
 if (b == NULL)
 {
-return 0;
+return (0);
 }
 for (j = len - 1; j >= 0; j--)
 {
