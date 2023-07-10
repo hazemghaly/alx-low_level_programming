@@ -26,7 +26,7 @@ if (from_file == -1)
 {
 dprintf(STDERR_FILENO, READ_ERROR, argv[1]), exit(98);
 }
-to_file = open(argv[2], O_WRONLY |O_CREAT | O_TRUNC, PERMS);
+to_file = open(argv[2], O_WRONLY | O_CREAT | O_TRUNC, PERMS);
 if (to_file == -1)
 {
 dprintf(STDERR_FILENO, WRITE_ERROR, argv[2]), exit(99);
@@ -45,11 +45,9 @@ dprintf(STDERR_FILENO, READ_ERROR, argv[1]), exit(98);
 }
 from_file = close(from_file);
 to_file = close(to_file);
-while(from_file){
-dprintf(STDERR_FILENO, CLOSE_ERROR, from_file), exit(100);
-}
-while(to_file){
-dprintf(STDERR_FILENO, CLOSE_ERROR, to_file), exit(100);
-}
+if (from_file)
+	dprintf(STDERR_FILENO, CLOSE_ERROR, from_file), exit(100);
+if (to_file)
+	dprintf(STDERR_FILENO, CLOSE_ERROR, to_file), exit(100);
 return (1);
 }
