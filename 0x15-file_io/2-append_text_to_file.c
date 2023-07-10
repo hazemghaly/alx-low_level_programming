@@ -14,7 +14,7 @@ if (!filename)
 {
 return (-1);
 }
-file = open(filename, O_WRONLY | O_APPEND) ;
+file = open(filename, O_WRONLY | O_APPEND);
 if (file == -1)
 {
 return (-1);
