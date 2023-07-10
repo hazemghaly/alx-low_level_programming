@@ -7,20 +7,20 @@
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-FILE *file;
+int file;
 ssize_t byt;
-char buffer[READ_BUF_SIZE * 8];
+char buffer[BUFFER_SIZE * 8];
 if (!filename || !letters)
 {
 return(0);
 }
 file = open(filename, O_RDONLY);
-if (file == NULL)
+if (file == -1)
 {
 return (0);
 }
-byt = read(file, &buf[0], letters);
-byt = write(STDOUT_FILENO, &buf[0], bytes);
-close(fd);
+byt = read(file, &buffer[0], letters);
+byt = write(STDOUT_FILENO, &buffer[0], byt);
+close(file);
 return (byt);
 }
