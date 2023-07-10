@@ -32,7 +32,8 @@ if (to_file == -1)
 dprintf(STDERR_FILENO, WRITE_ERROR, argv[2]), exit(99);
 }
 byt = read(from_file, buffer, BUFFER_SIZE);
-while (byt > 0){
+while (byt > 0)
+{
 if (write(to_file, buffer, byt) != byt)
 {
 dprintf(STDERR_FILENO, WRITE_ERROR, argv[2]), exit(99);
@@ -44,11 +45,11 @@ dprintf(STDERR_FILENO, READ_ERROR, argv[1]), exit(98);
 }
 from_file = close(from_file);
 to_file = close(to_file);
-While(from_file){
+while(from_file){
 dprintf(STDERR_FILENO, CLOSE_ERROR, from_file), exit(100);
 }
-While(to_file){
+while(to_file){
 dprintf(STDERR_FILENO, CLOSE_ERROR, to_file), exit(100);
 }
-return (SUCCESS);
+return (1);
 }
