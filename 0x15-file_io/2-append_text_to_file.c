@@ -7,22 +7,22 @@
  */
 int append_text_to_file(const char *filename, char *text_content)
 {
-FILE *file;
+int file;
 ssize_t byt;
 ssize_t len = strlen(text_content);
 if (!filename)
 {
 return (-1);
 }
-file = fopen(filename, "a+");
+file = open(filename, O_WRONLY | O_APPEND) ;
 if (file == -1)
 {
 return (-1);
 }
 if (len)
 {
-byt = fwrite(file, text_content, len);
+byt = write(file, text_content, len);
 }
-fclose(file);
+close(file);
 return (byt == len ? 1 : -1);
 }
