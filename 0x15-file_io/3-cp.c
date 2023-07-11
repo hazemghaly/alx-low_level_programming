@@ -40,6 +40,6 @@ to_file = close(to_file);
 if (from_file)
 	dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", from_file), exit(100);
 if (to_file)
-	dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", to_file), exit(100);
+	dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", from_file), exit(100);
 return (1);
 }
