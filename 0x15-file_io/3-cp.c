@@ -34,10 +34,10 @@ if (write(to_file, buffer, byt) != byt)
 {
 dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]), exit(99);
 }
+}
 if (byt == -1)
 {
 dprintf(STDERR_FILENO, "Error: Can't read from %s\n", argv[1]), exit(98);
-}
 }
 from_file = close(from_file);
 to_file = close(to_file);
