@@ -25,7 +25,7 @@ else
 {
 	newadd->next = *head;
 	(*head)->prev = newadd;
-	*head = new;
+	*head = newadd;
 }
 return (newadd);
 }
