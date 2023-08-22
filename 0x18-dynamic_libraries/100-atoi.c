@@ -10,6 +10,5 @@
 
 int _atoi(char *s)
 {
-int a = atoi(*s);
-return (a);
+return (atoi(*s));
 }
