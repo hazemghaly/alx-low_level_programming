@@ -1,7 +1,7 @@
 #include "lists.h"
 /**
  * *insert_dnodeint_at_index- insert at index
- * @head: 1st member
+ * @h: 1st member
  * @n: intager
  * @idx: unsignedintager
  *
