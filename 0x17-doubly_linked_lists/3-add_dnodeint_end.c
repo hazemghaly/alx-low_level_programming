@@ -28,13 +28,10 @@ if (node)
 	while (node->next)
 	{
 		node = node->next;
-		node->next = endadd;
-		endadd->prev = node;
+
 	}
-}
-else
-{
-	*head = endadd;
+node->next = endadd;
+endadd->prev = node;
 }
 return (endadd);
 }
