@@ -38,7 +38,7 @@ while (h)
 			node->next = indexadd;
 			indexadd->prev = node;
 			}
-		if (indexadd->prev = NULL)
+		if (indexadd->prev == NULL)
 			{
 				indexadd->next = NULL;
 			}
