@@ -10,7 +10,7 @@ void free_dlistint(dlistint_t *head)
 dlistint_t *nodeshead, *node;
 if (!head)
 {
-return (0);
+return (NULL);
 }
 node = head;
 while (node)
