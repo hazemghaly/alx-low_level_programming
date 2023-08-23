@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * *get_dnodeint_at_index- free a linked
+ * *get_dnodeint_at_index- grt indexed element
  * @head: 1st member
  * @index: unsigned int
  * Return: Always 0 (Success) , NULL (Error)
@@ -15,7 +15,7 @@ while (head)
 		return (head);
 	}
 	head = head->next;
-	count++;	
+	count++;
 }
 return (NULL);
 }
