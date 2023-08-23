@@ -2,6 +2,8 @@
 /**
  * *insert_dnodeint_at_index- insert at index
  * @head: 1st member
+ * @n: intager
+ * @idx: unsignedintager
  *
  * Return: Always 0 (Success) , NULL (Error)
  */
@@ -17,7 +19,7 @@ if (!h || !indexadd)
 }
 while (h)
 {
-	if (count == index)
+	if (count == idx)
 	{
 		indexadd->n = n;
 		*h = indexadd;
