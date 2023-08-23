@@ -10,13 +10,13 @@ void free_dlistint(dlistint_t *head)
 dlistint_t *nodeshead, *node;
 if (!head)
 {
-return (NULL);
+return;
 }
 node = head;
 while (node)
 {
 nodeshead = node->next;
-free(node->str);
+free(node->head);
 free(node);
 node = nodeshead;
 }
