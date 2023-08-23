@@ -9,14 +9,15 @@
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 {
 dlistint_t *endadd = malloc(sizeof(dlistint_t));
-dlistint_t *node = *head;
+dlistint_t *node;
+node = *head;
 if (!head || !endadd)
 {
 	free(endadd);
 	return (NULL);
 }
 endadd->n = n;
-endadd->next = NULL
+endadd->next = NULL;
 if (!*head)
 {
 	*head = endadd;
