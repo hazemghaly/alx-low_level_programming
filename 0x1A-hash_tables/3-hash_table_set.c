@@ -13,7 +13,7 @@ hash_node_t *node;
 hash_node_t *item;
 if (!key || !ht || !value)
 	return (0);
-index = hash_djb2((unsigned char *)key) % ht->size;
+index = key_index((const unsigned char *)key, ht->size);
 item = ht->array[index];
 while (item)
 {
