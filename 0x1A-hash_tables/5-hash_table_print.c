@@ -9,7 +9,7 @@ void hash_table_print(const hash_table_t *ht)
 hash_node_t *pt;
 unsigned long int index;
 printf("{");
-for (idsex = 0; i < ht->size; index++)
+for (index = 0; index < ht->size; index++)
 {
 pt = ht->array[index];
 if (ht == NULL)
