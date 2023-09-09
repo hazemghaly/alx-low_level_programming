@@ -14,12 +14,12 @@ if (!hashtable)
 	return (NULL);
 hashtable->size = size;
 hashtable->array = malloc(sizeof(hash_node_t *) * size);
-if (!hashtable->array)
+if (hashtable->array == NULL)
 {
 	free(hashtable);
 	return (NULL);
 }
-for (i = 0; i < hashtable->size; i++)
+for (i = 0; i < size; i++)
 	hashtable->array[i] = NULL;
 return (hashtable);
 }
