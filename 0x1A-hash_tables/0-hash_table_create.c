@@ -15,7 +15,10 @@ if (!hashtable)
 hashtable->size = size;
 hashtable->array = malloc(sizeof(hash_node_t *) * size);
 if (!hashtable->array)
+{
+	free(hashtable);
 	return (NULL);
+}
 for (i = 0; i < hashtable->size; i++)
 	hashtable->array[i] = NULL;
 return (hashtable);
