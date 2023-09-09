@@ -4,7 +4,7 @@
  * @ht: hashtable
  * Return: Always table (Success) , 98 (Error)
  */
-void hash_table_print(const hash_table_t *ht);
+void hash_table_print(const hash_table_t *ht)
 {
 hash_node_t *pt;
 unsigned long int index;
