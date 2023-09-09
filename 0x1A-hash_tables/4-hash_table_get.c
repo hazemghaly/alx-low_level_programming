@@ -12,7 +12,7 @@ unsigned long int index = 0;
 hash_node_t *item;
 if (!key || !ht)
 	return (NULL);
-index = hash_djb2((unsigned char *)key) % ht->size;
+index = key_index((const unsigned char *)key, ht->size);
 item = ht->array[index];
 while (item)
 {
@@ -20,6 +20,7 @@ if (strcmp(item->key, key) == 0)
 {
 return (item->value);
 }
+item = item->next;
 }
 return (NULL);
 }
