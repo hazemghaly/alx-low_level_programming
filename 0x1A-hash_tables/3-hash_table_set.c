@@ -27,7 +27,7 @@ return (1);
 }
 item = item->next;
 }
-node = (hash_node_t *)malloc(sizeof(hash_node_t));
+node = malloc(sizeof(hash_node_t));
 if (node == NULL)
 	return (0);
 node->key = strdup(key);
