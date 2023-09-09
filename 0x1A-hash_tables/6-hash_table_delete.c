@@ -22,6 +22,7 @@ free(ht->array[index]->value);
 free(ht->array[index]);
 ht->array[index] = pt;
 }
+}
 free(ht->array);
 ht->array = NULL;
 ht->size = 0;
