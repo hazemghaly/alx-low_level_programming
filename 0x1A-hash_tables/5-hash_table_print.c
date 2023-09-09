@@ -21,7 +21,7 @@ if (sep == 1)
 	printf(", ");
 printf("'%s': '%s'", pt->key, pt->value);
 pt = pt->next;
-esp = 1;
+sep = 1;
 }
 }
 printf("}\n");
