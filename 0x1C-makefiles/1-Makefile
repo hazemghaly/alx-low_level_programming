@@ -1,0 +1,4 @@
+all: main.c school.c
+	gcc main.c school.c -o school
+SRC = main.c school.c
+CC = /usr/local/bin/gcc
