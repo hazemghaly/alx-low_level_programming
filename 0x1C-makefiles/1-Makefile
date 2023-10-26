@@ -1,4 +1,4 @@
 SRC = main.c school.c
-CC = /usr/local/bin/gcc
-all: $(SRC)
+CC = gcc
+all: $(SRC
 	$(CC) $(SRC) -o school
