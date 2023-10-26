@@ -2,9 +2,9 @@ SRC = main.c school.c
 CC = gcc
 NAME = school
 OBJ = $(SRC:.c=.o)
-RM = rm
+RM = rm -f
 TMP =  $(SRCS:.c=.c~)
-CFLAGS =  -Wall -Werror -Wextra -pedantic
+CFLAGS = -Wall -Werror -Wextra -pedantic
 all: $(OBJ)
 	$(CC) $(CFLAGS) $(SRC) -o $(NAME)
 clean:
