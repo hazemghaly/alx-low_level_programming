@@ -7,7 +7,7 @@ TMP =  $(SRCS:.c=.c~)
 all: $(OBJ)
 	$(CC) $(SRC) -o $(NAME)
 clean:	 
-	$(RM) $(NAME) $(TMP)
+	$(RM) $(NAME) *~
 oclean:
 	$(RM) $(OBJ)
 fclean: clean oclean

@@ -6,7 +6,7 @@ RM = rm
 TMP =  $(SRCS:.c=.c~)
 CFLAGS =  -Wall -Werror -Wextra -pedantic
 all: $(OBJ)
-	$(CC) CFLAGS $(SRC) -o $(NAME)
+	$(CC) $(CFLAGS) $(SRC) -o $(NAME)
 clean:
 	$(RM) $(TMP) $(NAME)
 oclean:
