@@ -6,11 +6,10 @@ RM = rm -f
 TMP =  $(SRCS:.c=.c~)
 all: $(OBJ)
 	$(CC) $(SRC) -o $(NAME)
-clean:
-	$(RM) 
+clean:	 
 	$(RM) -f $(TMP)
 oclean:
-	$(OBJ)
+	$(RM) $(OBJ)
 fclean: clean oclean
 	$(RM) $(NAME)
 re: fclean all
