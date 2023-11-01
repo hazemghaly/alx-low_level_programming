@@ -1,7 +1,10 @@
 #!/usr/bin/python3
-
+'''
+python funtion
+'''
 
 def island_perimeter(grid):
+    '''perimeter'''
     m = len(grid)
     n = len(grid[0])
     land = 0
