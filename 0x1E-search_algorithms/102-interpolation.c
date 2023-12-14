@@ -21,7 +21,6 @@ array[low] = array[0];
 array[high] = array[size - 1];
 pos = low + (
 	((double)(high - low) / (array[high] - array[low])) * (value - array[low]));
-
 for (i = 0; i < size; i++)
 {
 if (pos < size)
@@ -34,9 +33,7 @@ break;
 if (low == high)
 	break;
 if (array[pos] == value)
-{
 	return (pos);
-}
 if (array[pos] < value)
 {
 	low = pos + 1;
