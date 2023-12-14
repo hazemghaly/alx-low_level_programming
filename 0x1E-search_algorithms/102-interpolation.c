@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * jump_search - Entry point
+ * interpolation_search - Entry point
  * @array: pointer
  * @size:size of array
  * @value:searching value
@@ -31,8 +31,8 @@ else
 printf("Value checked array[%ld] is out of range\n", pos);
 break;
 }
-if (low == high){
-	break;}
+if (low == high)
+	break;
 if (array[pos] == value)
 {
 	return (pos);
@@ -44,7 +44,7 @@ if (array[pos] < value)
 else
 {
 	high = pos - 1;
-		array[low] = array[0];
+	array[low] = array[0];
 	array[high] = array[pos];
 	pos = low + (
 		((double)(high - low) / (array[high] - array[low])) * (value - array[low]));
